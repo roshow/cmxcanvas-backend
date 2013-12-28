@@ -1,0 +1,24 @@
+extends layouts/layout
+
+append head
+
+    title CMXCANVAS
+    script(data-main='js/app.frontend', src='js/libs/require.js')
+    script.
+        //not the most elegant solution for this AT ALL.
+        $(function() { 
+            $('li.libNav').addClass('active');
+        });
+
+append #MAIN   
+        
+    #library.container 
+        .row
+            each issue in issues  
+                .col-sm-4.issueEntry
+                    a(issueId=issue._id, href="/read?id="+issue._id)
+                        img.img-responsive(src=issue.thumb)
+                        p
+                            = issue.series.name.toUpperCase() +':'
+                            br
+                            = issue.title

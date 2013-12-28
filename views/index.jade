@@ -1,0 +1,22 @@
+extends layouts/layout
+
+append head
+
+    title CMXCANVAS
+    script(data-main='js/cmxcanvas', src='js/libs/require.js')
+    if Id
+        script.
+            var ID = !{JSON.stringify(Id)};
+
+append #MAIN   
+        
+    .container#readcomic  
+        #canvas_container
+            #leftbutton
+                span.ui-arrow.glyphicon.glyphicon-play.pull-left
+            canvas#cmxcanvas(height='450px', width='800px')
+            #rightbutton
+                span.ui-arrow.glyphicon.glyphicon-play.pull-right
+
+    nav#footer.navbar.navbar-default(role="navigation")
+        #footerContent
