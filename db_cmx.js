@@ -1,36 +1,24 @@
-var db = require('mongojs').connect(CONFIG.mongo.uri, ['cmxMetaData', 'cmxJSON', 'comics']);
+var db = require('mongojs').connect('mongodb://you:comein@ds043348.mongolab.com:43348/cmxcanvas', ['cmxMetaData', 'cmxJSON', 'comics']);
 
 exports.db_cmx = (function() {
     var db_cmx = {
-        issues: {
-            get: function(q, cb) {
-                db.comics.find(q, function(e, r) {
-                    if (!e){
-                        cb && cb(r);
-                        return r;
-                    }
-                });
-            }
-        },
-
-        metadata: {
+        comics: {
             get: function(q, cb) {
                 db.cmxMetaData.find(q, function(e, r) {
-                    if (!e){
-                        cb && cb(r);
-                        return r;
-                    }
+                    cb && cb(e, r);
+                });
+            },  
+            getOne: function(q, cb) {
+                db.cmxMetaData.find(q, function(e, r) {
+                    cb && cb(e, r[0]);
                 });
             }
         },
 
-        cmxjson: {
+        cmxJSON: {
             get: function(q, cb) {
                 db.cmxJSON.find(q, function(e, r) {
-                    if (!e){
-                        cb && cb(r);
-                        return r;
-                    }
+                    cb && cb(e, r[0]);
                 });
             },
             set: function(q, u, cb) {
