@@ -1,4 +1,4 @@
-var db = require('mongojs').connect('mongodb://you:comein@ds043348.mongolab.com:43348/cmxcanvas', ['cmxMetaData', 'cmxJSON', 'comics']);
+var db = require('mongojs').connect('cmxcanvas', ['cmxMetaData', 'cmxJSON', 'comics']);
 
 exports.db_cmx = (function() {
     var db_cmx = {
@@ -8,7 +8,7 @@ exports.db_cmx = (function() {
                     cb && cb(e, r);
                 });
             },  
-            getOne: function(q, cb) {
+            findOne: function(q, cb) {
                 db.cmxMetaData.find(q, function(e, r) {
                     cb && cb(e, r[0]);
                 });
