@@ -1,8 +1,12 @@
 var restify = require('restify'),
     db = require('./db_cmx.js').db_cmx,
-    server = restify.createServer({ name: 'cxmcanvas' });
+    server = restify.createServer({ name: 'cxmcanvas' }),
+    nconf = require('nconf');
+
+nconf.env();
+console.log(nconf.get('mongo'));
  
-server.listen(5000, function () {
+server.listen(nconf.get('port') || 5000, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
 

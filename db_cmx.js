@@ -1,4 +1,7 @@
-var db = require('mongojs').connect('cmxcanvas', ['cmxMetaData', 'cmxJSON', 'comics']);
+var mongoConf = require('nconf')
+                    .file({ file: 'conf/heroku.json' })
+                    .get('mongo'),
+    db = require('mongojs').connect(mongoConf.uri, mongoConf.collections);
 
 exports.db_cmx = (function() {
     var db_cmx = {

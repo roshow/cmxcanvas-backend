@@ -1,0 +1,6 @@
+{
+    "mongo": {
+        "uri": "cmxcanvas",
+        "collections": ["cmxMetaData", "cmxJSON", "comics"]
+    }
+}
