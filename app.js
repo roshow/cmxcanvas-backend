@@ -6,7 +6,7 @@ var restify = require('restify'),
 nconf.env();
 console.log(nconf.get('mongo'));
  
-server.listen(nconf.get('port') || 5000, function () {
+server.listen(nconf.get('PORT') || 5000, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
 
