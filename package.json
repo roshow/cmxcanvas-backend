@@ -1,16 +1,16 @@
 {
-  "name": "cmxcanvas",
-  "description": "comic reader on html5 canvas",
+  "name": "cmxcanvasapi",
+  "description": "api for my front-end project, cmxcanvas",
   "author": {
     "name": "roshow",
-    "url": "http://roshow.net"
+    "url": "http://cmxcanvas.roshow.net"
   },
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "3.2.x",
-    "jade": "0.34.x",
-    "mongojs": "0.7.x",
-    "restify": "2.6.x"
+    "express": "*",
+    "mongojs": "*",
+    "restify": "*",
+    "nconf": "*"
   }
 }

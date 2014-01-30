@@ -81,8 +81,3 @@ function NoMatches(message) {
   this.name = 'NoMatches';
 };
 util.inherits(NoMatches, restify.RestError);
-
-// server.get('/hello/:name', function(req, res, next) {
-//   return next(new NoMatches('not feeling you.'));
-//   // return next(new restify.ConflictError('not feeling you.'));
-// });
