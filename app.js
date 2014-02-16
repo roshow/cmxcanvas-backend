@@ -18,7 +18,6 @@ server.get('/cmx', function (req, res, next) {
     });
   });
 });
-
 server.get('/cmx/:id', function (req, res, next) {
     db.comics.findOne({ _id: req.params.id }, function (error, comic) {
         if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
@@ -52,11 +51,17 @@ server.get('/cmx/:id', function (req, res, next) {
     });
 });
 
-server.get('/cmxjson/:id', function (req, res, next) {
+function getCmxjson(req, res, next){
+    if (!/_cmxjson$/.test(req.params.id)){
+        req.params.id += '_cmxjson';
+    }
     db.cmxJSON.get({ _id: req.params.id }, function(error, cmxjson) {
         if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
         if (cmxjson) {
-            res.send(cmxjson);
+            res.send({
+                code: 200,
+                data: cmxjson.JSON
+            });
             return next();
         }
         // else return next(new NoMatches());
@@ -67,8 +72,11 @@ server.get('/cmxjson/:id', function (req, res, next) {
             });
             return next();
         }
-    });    
-});
+    });   
+}
+
+server.get('/cmxjson/:id', getCmxjson);
+server.get('/cmx/:id/panels', getCmxjson);
 
 var util = require('util');
 function NoMatches(message) {
