@@ -1,5 +1,5 @@
 var restify = require('restify'),
-    db = require('./db_cmx.js').db_cmx,
+    db = require('./db'),
     server = restify.createServer({ name: 'cxmcanvas' })
  
 server.listen(process.env.PORT || 5000, function () {
@@ -25,6 +25,7 @@ server.get('/cmx/:id', function (req, res, next) {
             db.cmxJSON.get({ _id: comic.cmxJSON }, function(error, cmxjson) {
                 if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
                 if (cmxjson) {
+                    console.log(cmxjson);
                     comic.cmxJSON = cmxjson.JSON;
                     res.send({ 
                         code: 200,

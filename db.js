@@ -3,7 +3,7 @@ var mongoConf = require('nconf')
                     .get('mongo'),
     db = require('mongojs').connect(mongoConf.uri, mongoConf.collections);
 
-exports.db_cmx = (function() {
+module.exports = (function() {
     var db_cmx = {
         comics: {
             get: function(q, cb) {
