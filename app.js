@@ -25,8 +25,20 @@ server.get('/cmx/:id', function (req, res, next) {
             db.cmxJSON.get({ _id: comic.cmxJSON }, function(error, cmxjson) {
                 if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
                 if (cmxjson) {
-                    console.log(cmxjson);
                     comic.cmxJSON = cmxjson.JSON;
+                    // console.log(comic);
+                    for (var i = 0, l = comic.cmxJSON.length; i < l; i++){
+                        console.log(comic.cmxJSON[i]);
+                        // console.log(comic.img.url + comic.cmxJSON[i].src);
+                        comic.cmxJSON[i].src = comic.img.url + comic.cmxJSON[i].src;
+                        if (comic.cmxJSON[i].popups && comic.cmxJSON[i].popups.length > 0){
+                            console.log(comic.cmxJSON[i].popups);
+                            for(var j = 0, len2 = comic.cmxJSON[i].popups.length; j < len2; j++){
+                                comic.cmxJSON[i].popups[j].src = comic.img.url + comic.cmxJSON[i].popups[j].src;
+                            }
+                        }
+                    };
+                    console.log(comic);
                     res.send({ 
                         code: 200,
                         data: [ comic ]
