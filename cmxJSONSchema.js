@@ -1,9 +1,11 @@
 module.exports = {
+    _id: String,
+    id: String,
     cmxMetaData: String,
     url: String,
     JSON: [
         {
-            cmx_id: String,
+            bookId: String,
             panel: Number,
             popups: {
                 type: Array,

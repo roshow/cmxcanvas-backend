@@ -1,9 +1,13 @@
 'use strict';
+global.ro = require('./routils');
+var ro = global.ro;
 
 var restify = require('restify'),
-    db = require('./db'),
+    db = require('./mongoose'),
     server = restify.createServer({ name: 'cxmcanvas' })
- 
+
+db.connect().then(function (){
+
 server.listen(process.env.PORT || 5000, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
@@ -13,86 +17,49 @@ server
   .use(restify.bodyParser());
 
 server.get('/cmx', function (req, res, next){
-    db.comics.get({}, function (error, comics){
-        res.send({
-            code: 200,
-            data: comics
-        });
-    });
-});
-server.get('/cmx/:id', function (req, res, next) {
-    db.comics.findOne({ _id: req.params.id }, function (error, comic){
-        if (error){
-            return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-        }
-        if (comic){
-            db.cmxJSON.get({ _id: comic.cmxJSON }, function(error, cmxjson) {
-                if (error){
-                    return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-                }
-                if (cmxjson){
-                    comic.cmxJSON = cmxjson.JSON;
-                    comic.cmxJSON.forEach(function(panel){
-                        panel.src = comic.img.url + panel.src;
-                        if (panel.popups && panel.popups.length){
-                            panel.popups.forEach(function(popup){
-                                popup.src = comic.img.url + popup.src;
-                            });
-                        }
-                    });
-                    res.send({
-                        code: 200,
-                        data: [ comic ]
-                    });
-                    return next();
-                }
-                else {
-                    res.send(404,{
-                        code: 'ResourceNotFound',
-                        message: 'No matching records.'
-                    });
-                    return next();
-                }
-            });
-        }
-        else {
-            res.send(404,{
-                code: 'ResourceNotFound',
-                message: 'No matching records.'
-            });
-            return next();
-        }
-    });
-});
-
-function getCmxjson(req, res, next){
-    if (!/_cmxjson$/.test(req.params.id)){
-        req.params.id += '_cmxjson';
-    }
-    db.cmxJSON.get({ _id: req.params.id }, function(error, cmxjson) {
-        if (error){
-            return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-        }
-        if (cmxjson){
+    db.find('cmxMetaData', {}).then(
+        function (comics){
             res.send({
                 code: 200,
-                data: cmxjson.JSON
+                data: comics
             });
-            return next();
-        }
-        // else return next(new NoMatches());
-        else {
-            res.send(404, {
-                code: 404,
-                message: 'No Matches'
-            });
-            return next();
-        }
-    });
-}
+        }, function (error){
+            console.log(error);
+        });
+    next();
+});
 
-server.get('/cmxjson/:id', getCmxjson);
-server.get('/cmx/:id/panels', getCmxjson);
+server.get('/cmx/:id', function (req, res, next){
+     db.find('cmxMetaData', { _id: req.params.id }).then(
+        function (book){
+            /** data massaging that will hopefully go away when I clean up the DB and set upload methods with rules **/
+            book[0].id = book[0].id || book[0]._id;
+            var panelsId = book[0].cmxJSON || book[0].id + '_cmxJSON';
+
+            db.find('cmxJSON', { _id: panelsId }).then(function (panels){
+                book[0].cmxJSON = panels[0].JSON;
+                res.send({
+                    code: 200,
+                    data: book
+                });
+            }, function (error){ console.log(error); });
+
+        }, function (error){ console.log(error); });
+});
+
+server.get('/panels/:id', function (req, res, next){
+    db.find('cmxJSON', { _id: req.params.id }).then(
+        function (panels){
+            res.send({
+                code: 200,
+                data: panels
+            });
+        }, function (error){
+            console.log(error);
+        });
+    next();
+});
+
 
 var util = require('util');
 function NoMatches(message) {
@@ -105,3 +72,5 @@ function NoMatches(message) {
     this.name = 'NoMatches';
 }
 util.inherits(NoMatches, restify.RestError);
+
+});

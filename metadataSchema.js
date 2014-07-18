@@ -1,4 +1,6 @@
 module.exports = {
+    _id: String,
+    id: String,
     issue: Number,
     title: String,
     thumb: String,
@@ -16,6 +18,6 @@ module.exports = {
     img: {
         url: String
     },
-    cmxJSON: String,
+    cmxJSON: {},
     published: Number
 }

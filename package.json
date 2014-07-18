@@ -11,6 +11,7 @@
     "express": "*",
     "mongojs": "*",
     "restify": "*",
-    "nconf": "*"
+    "nconf": "*",
+    "promised-io": "*"
   }
 }
