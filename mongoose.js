@@ -1,6 +1,6 @@
 'use strict';
 
-var ro = global.ro || {};
+var ro = global.ro || require('./routils');
 
 var mongoose = require('mongoose'),
     promised = require('promised-io/promise'),
@@ -9,8 +9,8 @@ var mongoose = require('mongoose'),
 
 conf = {
     db: {
-        user: 'you',
-        pw: 'comein',
+        user: 'roshow',
+        pw: '0rko***snarf',
         host: 'ds043348.mongolab.com:43348',
         database: 'cmxcanvas',
         models: [
@@ -37,18 +37,19 @@ db.find = function(model, query){
     ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
     mongoose.model(model).find(query || {}, function (err, docs){
+        console.log(arguments);
         if (err) { deferred.reject(err); }
         else { deferred.resolve(docs); }
     });
     return deferred;
 };
 
-db.putAThought = function(model){
+db.put = function(modelName, model){
     var def = new promised.Deferred();
     if (model._id){
         var _id = model._id;
         delete model._id;
-        batThoughtModel.findOneAndUpdate({ _id: _id }, model, { upsert : true }, function(err, updatedModel){
+        mongoose.model(modelName).findOneAndUpdate({ _id: _id }, model, { upsert : true }, function(err, updatedModel){
             if (err) {
                 def.reject(err);
             }
@@ -58,7 +59,8 @@ db.putAThought = function(model){
         });
     }
     else {
-        batThoughtModel.create(model, function(err, savedModel){
+        mongoose.model(modelName).create(model, function(err, savedModel){
+            // console.log(arguments);
             def.resolve(savedModel);
         });
     }

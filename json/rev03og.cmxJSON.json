@@ -1,0 +1,118 @@
+{
+    "_id": "rev03og_cmxjson",
+    "id": "rev03og_cmxjson",
+    "JSON": [
+        {
+            "panel": 0,
+            "src": "/images/rev03og/2013-07-30.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 1,
+            "src": "/images/rev03og/2013-07-31.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 2,
+            "src": "/images/rev03og/2013-08-01.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 3,
+            "src": "/images/rev03og/2013-08-06.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 4,
+            "src": "/images/rev03og/2013-08-07.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 5,
+            "src": "/images/rev03og/2013-08-08.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 6,
+            "src": "/images/rev03og/2013-08-13.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 7,
+            "src": "/images/rev03og/2013-08-14.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 8,
+            "src": "/images/rev03og/2013-08-15.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 9,
+            "src": "/images/rev03og/2013-08-20.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 10,
+            "src": "/images/rev03og/2013-08-21.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 11,
+            "src": "/images/rev03og/2013-08-22.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 12,
+            "src": "/images/rev03og/2013-08-27.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 13,
+            "src": "/images/rev03og/2013-08-28.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 14,
+            "src": "/images/rev03og/2013-08-29.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        },
+        {
+            "panel": 15,
+            "src": "/images/rev03og/2013-08-30.jpg",
+            "type": "panel",
+            "bookId": "rev03og",
+            "popups": []
+        }
+    ]
+}

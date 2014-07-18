@@ -4,7 +4,7 @@ var ro = global.ro;
 
 var restify = require('restify'),
     db = require('./mongoose'),
-    server = restify.createServer({ name: 'cxmcanvas' })
+    server = restify.createServer({ name: 'cxmcanvas' });
 
 db.connect().then(function (){
 
@@ -34,7 +34,7 @@ server.get('/cmx/:id', function (req, res, next){
         function (book){
             /** data massaging that will hopefully go away when I clean up the DB and set upload methods with rules **/
             book[0].id = book[0].id || book[0]._id;
-            var panelsId = book[0].cmxJSON || book[0].id + '_cmxJSON';
+            var panelsId = book[0].cmxJSON || book[0].id + '_cmxjson';
 
             db.find('cmxJSON', { _id: panelsId }).then(function (panels){
                 book[0].cmxJSON = panels[0].JSON;

@@ -1,8 +1,8 @@
+/* globals require, process */
+
 'use strict';
 
-var file = (process.argv[2] || 'rev03dig.json'),
-	bookjson = require('./' + file).data[0],
-	fs = require('fs'),
+var fs = require('fs'),
 	models = {},
 	schema = {};
 
@@ -10,29 +10,44 @@ function cheapClone(a) {
    return JSON.parse(JSON.stringify(a));
 }
 
-/** metaData **/
-models.metaData = cheapClone(bookjson);
-delete models.metaData.cmxJSON;
-models.metaData.id = models.metaData._id;
+function parseJson(bookjson, writeFiles){
 
-/** cmxJSON **/
-models.cmxJSON = cheapClone(bookjson.cmxJSON);
-models.cmxJSON.forEach(function (panel, i){
-	panel.panel = i;
-	panel.bookId = models.metaData.id;
+	bookjson.id = bookjson.id || bookjson._id;
+	bookjson.img.url = bookjson.img.url || '';
 
-	var imgurl = bookjson.img.url || '';
-	panel.src = imgurl + panel.src;
+	/** cmxMetaData **/
+	models.cmxMetaData = cheapClone(bookjson);
+	// console.log(models.cmxMetaData)
+	delete models.cmxMetaData.cmxJSON;
 
-	panel.popups = panel.popups || [];
-	panel.popups.forEach(function (popup, ii){
-		popup.popup = ii;
-		popup.src = imgurl + popup.src
+	/** cmxJSON **/
+	models.cmxJSON = {
+		_id: bookjson.id + '_cmxjson',
+		id: bookjson.id + '_cmxjson',
+		JSON: cheapClone(bookjson.cmxJSON)
+	};
+
+	models.cmxJSON.JSON.forEach(function (panel, i){
+
+		panel.panel = i;
+		panel.bookId = models.cmxMetaData.id;
+		panel.src = bookjson.img.url + panel.src;
+		panel.popups = panel.popups || [];
+
+		panel.popups.forEach(function (popup, ii){
+			popup.popup = ii;
+			popup.src = bookjson.img.url + popup.src
+		});
 	});
-});
 
-Object.keys(models).forEach(function (key){
-	var filename = bookjson._id + '.' + key + '.json';
-	fs.writeFile('./' + filename, JSON.stringify(models[key], null, 4));
-});
-// fs.writeFile(filename, data, [options], callback)
+	if (writeFiles){
+		Object.keys(models).forEach(function (key){
+			var filename = bookjson.id + '.' + key + '.json';
+			fs.writeFile('./json/' + filename, JSON.stringify(models[key], null, 4));
+		});
+	}
+
+	return models;
+}
+
+module.exports = parseJson;

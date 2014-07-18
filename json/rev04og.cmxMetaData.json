@@ -1,0 +1,36 @@
+{
+    "_id": "rev04og",
+    "issue": 4,
+    "published": 0,
+    "title": "Nice Threads",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/revorigin/revorigin_thumb.jpg",
+    "img": {
+        "url": "/images/rev04og/"
+    },
+    "series": {
+        "name": "Revenger",
+        "id": "rev"
+    },
+    "creators": [
+        {
+            "name": "Michael Powell",
+            "credit": "Artist",
+            "url": "http://michaelpowellart.tumblr.com"
+        },
+        {
+            "name": "Rolando Garcia",
+            "credit": "Writer",
+            "url": "http://roshow.net"
+        }
+    ],
+    "view": {
+        "height": "750",
+        "width": "600",
+        "backgroundColor": "#000",
+        "backgroundTextColor": "#fff",
+        "move": {
+            "transition": "slideAndFade"
+        }
+    },
+    "id": "rev04og"
+}

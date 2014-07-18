@@ -1,0 +1,487 @@
+{
+    "id": "rev03dig_cmxjson",
+    "JSON": [
+        {
+            "src": "/images/rev03dig/panel01.png",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [],
+            "panel": 0,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel02.png",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [],
+            "panel": 1,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel03.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [],
+            "panel": 2,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel04.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [],
+            "panel": 3,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel05.jpg",
+            "type": "panel",
+            "panel": 4,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel06.jpg",
+            "type": "panel",
+            "panel": 5,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel07.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel07L01.png",
+                    "type": "popup",
+                    "x": 102,
+                    "y": 16,
+                    "popup": 0
+                }
+            ],
+            "panel": 6,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel08.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel08L01.png",
+                    "type": "popup",
+                    "x": 277,
+                    "y": 286,
+                    "popup": 0
+                }
+            ],
+            "panel": 7,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel09.jpg",
+            "type": "panel",
+            "panel": 8,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel10.jpg",
+            "type": "panel",
+            "panel": 9,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel11.jpg",
+            "type": "panel",
+            "panel": 10,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel12.jpg",
+            "type": "panel",
+            "panel": 11,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel13.jpg",
+            "type": "panel",
+            "panel": 12,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel14.jpg",
+            "type": "panel",
+            "panel": 13,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel15.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel15L01.png",
+                    "type": "popup",
+                    "x": 8,
+                    "y": 261,
+                    "popup": 0
+                }
+            ],
+            "panel": 14,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel16.png",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel16P1.jpg",
+                    "type": "popup",
+                    "x": 412,
+                    "y": 100,
+                    "transition": "fadeIn",
+                    "popup": 0
+                }
+            ],
+            "panel": 15,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel17.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel17L01.png",
+                    "type": "popup",
+                    "x": 292,
+                    "y": 180,
+                    "popup": 0
+                },
+                {
+                    "src": "/images/rev03dig/panel17L02.png",
+                    "type": "popup",
+                    "x": 172,
+                    "y": 217,
+                    "popup": 1
+                },
+                {
+                    "src": "/images/rev03dig/panel17L03.png",
+                    "type": "popup",
+                    "x": 570,
+                    "y": 285,
+                    "popup": 2
+                }
+            ],
+            "panel": 16,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel18.png",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel18p01.jpg",
+                    "type": "popup",
+                    "x": 414,
+                    "y": 70,
+                    "transition": "fadeIn",
+                    "popup": 0
+                }
+            ],
+            "panel": 17,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel19.jpg",
+            "type": "panel",
+            "popups": [],
+            "panel": 18,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel20.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel20p01.jpg",
+                    "type": "popup",
+                    "x": 406,
+                    "y": 48,
+                    "transition": "fadeIn",
+                    "popup": 0
+                }
+            ],
+            "panel": 19,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel21.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel21p01.png",
+                    "type": "popup",
+                    "x": 307,
+                    "y": 25,
+                    "popup": 0
+                },
+                {
+                    "src": "/images/rev03dig/panel21p02.png",
+                    "type": "popup",
+                    "x": 368,
+                    "y": 233,
+                    "popup": 1
+                }
+            ],
+            "panel": 20,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel22.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "panel": 21,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel23.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "panel": 22,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel24.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "panel": 23,
+            "bookId": "rev03dig",
+            "popups": []
+        },
+        {
+            "src": "/images/rev03dig/panel25.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel25p01.png",
+                    "type": "popup",
+                    "x": 306,
+                    "y": 56,
+                    "popup": 0
+                },
+                {
+                    "src": "/images/rev03dig/panel25p02.png",
+                    "type": "popup",
+                    "x": 527,
+                    "y": 303,
+                    "popup": 1
+                }
+            ],
+            "panel": 24,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel26.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel26p01.png",
+                    "type": "popup",
+                    "x": 640,
+                    "y": 293,
+                    "popup": 0
+                }
+            ],
+            "panel": 25,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel27.jpg",
+            "type": "panel",
+            "popups": [],
+            "panel": 26,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel28.jpg",
+            "type": "panel",
+            "popups": [],
+            "panel": 27,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel29.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel29p01.png",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 235,
+                    "y": 191,
+                    "popup": 0
+                },
+                {
+                    "src": "/images/rev03dig/panel29p02.png",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 599,
+                    "y": 221,
+                    "popup": 1
+                }
+            ],
+            "panel": 28,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel30.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel30p01.png",
+                    "type": "popup",
+                    "x": 137,
+                    "y": 74,
+                    "popup": 0
+                }
+            ],
+            "panel": 29,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel31.jpg",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [],
+            "panel": 30,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel32.jpg",
+            "type": "panel",
+            "transition": "bounceback",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel32p01.png",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 44,
+                    "y": 0,
+                    "popup": 0
+                }
+            ],
+            "panel": 31,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel33.jpg",
+            "type": "panel",
+            "popups": [],
+            "panel": 32,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel34.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel34p01.png",
+                    "type": "popup",
+                    "x": 229,
+                    "y": 226,
+                    "popup": 0
+                }
+            ],
+            "panel": 33,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel35.jpg",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel35p01.png",
+                    "type": "popup",
+                    "x": 470,
+                    "y": 166,
+                    "popup": 0
+                }
+            ],
+            "panel": 34,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel36.jpg",
+            "type": "panel",
+            "transition": "bounceback",
+            "popups": [],
+            "panel": 35,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel37.png",
+            "type": "panel",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel37p01.jpg",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "popup": 0
+                }
+            ],
+            "panel": 36,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel38.png",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel38p01.jpg",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "popup": 0
+                }
+            ],
+            "panel": 37,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/panel39.png",
+            "type": "panel",
+            "transition": "crossfade",
+            "popups": [
+                {
+                    "src": "/images/rev03dig/panel39p01.jpg",
+                    "type": "popup",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "popup": 0
+                }
+            ],
+            "panel": 38,
+            "bookId": "rev03dig"
+        },
+        {
+            "src": "/images/rev03dig/tbc.png",
+            "type": "panel",
+            "popups": [],
+            "panel": 39,
+            "bookId": "rev03dig"
+        }
+    ]
+}
