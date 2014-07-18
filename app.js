@@ -1,3 +1,5 @@
+'use strict';
+
 var restify = require('restify'),
     db = require('./db'),
     server = restify.createServer({ name: 'cxmcanvas' })
@@ -10,21 +12,25 @@ server
   .use(restify.fullResponse())
   .use(restify.bodyParser());
 
-server.get('/cmx', function (req, res, next) {
-  db.comics.get({}, function (error, comics) {
-    res.send({ 
-        code: 200,
-        data: comics 
+server.get('/cmx', function (req, res, next){
+    db.comics.get({}, function (error, comics){
+        res.send({
+            code: 200,
+            data: comics
+        });
     });
-  });
 });
 server.get('/cmx/:id', function (req, res, next) {
-    db.comics.findOne({ _id: req.params.id }, function (error, comic) {
-        if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-        if (comic) {
+    db.comics.findOne({ _id: req.params.id }, function (error, comic){
+        if (error){
+            return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
+        }
+        if (comic){
             db.cmxJSON.get({ _id: comic.cmxJSON }, function(error, cmxjson) {
-                if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-                if (cmxjson) {
+                if (error){
+                    return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
+                }
+                if (cmxjson){
                     comic.cmxJSON = cmxjson.JSON;
                     comic.cmxJSON.forEach(function(panel){
                         panel.src = comic.img.url + panel.src;
@@ -41,9 +47,9 @@ server.get('/cmx/:id', function (req, res, next) {
                     return next();
                 }
                 else {
-                    res.send(404, {
-                        code: "ResourceNotFound",
-                        message: "No matching records."
+                    res.send(404,{
+                        code: 'ResourceNotFound',
+                        message: 'No matching records.'
                     });
                     return next();
                 }
@@ -51,8 +57,8 @@ server.get('/cmx/:id', function (req, res, next) {
         }
         else {
             res.send(404,{
-                code: "ResourceNotFound",
-                message: "No matching records."
+                code: 'ResourceNotFound',
+                message: 'No matching records.'
             });
             return next();
         }
@@ -64,8 +70,10 @@ function getCmxjson(req, res, next){
         req.params.id += '_cmxjson';
     }
     db.cmxJSON.get({ _id: req.params.id }, function(error, cmxjson) {
-        if (error) return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
-        if (cmxjson) {
+        if (error){
+            return next(new restify.InvalidArgumentError(JSON.stringify(error.errors)));
+        }
+        if (cmxjson){
             res.send({
                 code: 200,
                 data: cmxjson.JSON
@@ -76,11 +84,11 @@ function getCmxjson(req, res, next){
         else {
             res.send(404, {
                 code: 404,
-                message: "No Matches"
+                message: 'No Matches'
             });
             return next();
         }
-    });   
+    });
 }
 
 server.get('/cmxjson/:id', getCmxjson);
@@ -88,12 +96,12 @@ server.get('/cmx/:id/panels', getCmxjson);
 
 var util = require('util');
 function NoMatches(message) {
-  restify.RestError.call(this, {
-    restCode: 'NoMatches',
-    statusCode: 411,
-    message: message || 'Nothing on this, babe.',
-    constructorOpt: NoMatches
-  });
-  this.name = 'NoMatches';
-};
+    restify.RestError.call(this, {
+        restCode: 'NoMatches',
+        statusCode: 411,
+        message: message || 'Nothing on this, babe.',
+        constructorOpt: NoMatches
+    });
+    this.name = 'NoMatches';
+}
 util.inherits(NoMatches, restify.RestError);
