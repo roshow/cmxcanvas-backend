@@ -14,9 +14,6 @@ module.exports = {
             url: String
         }
     ],
-    img: {
-        url: String
-    },
     view: {
         height: Number,
         width: Number

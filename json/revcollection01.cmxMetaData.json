@@ -1,13 +1,13 @@
 {
-    "_id": "rev04og",
-    "issue": 4,
+    "_id": "revcollection01",
+    "issue": 1,
     "published": 0,
-    "title": "Nice Threads",
+    "title": "Walk of Shame, Family Tied and Clusterf**k",
     "thumb": "http://roshow.net/public/images/cmxcanvas/revorigin/revorigin_thumb.jpg",
     "img": null,
     "series": {
-        "name": "Revenger",
-        "id": "rev"
+        "name": "Revenger Collection",
+        "id": "revcollection"
     },
     "creators": [
         {
@@ -22,14 +22,13 @@
         }
     ],
     "view": {
-        "height": "750",
-        "width": "600",
-        "backgroundColor": "#000",
-        "backgroundTextColor": "#fff",
+        "height": "1200",
+        "width": "900",
+        "backgroundTextColor": "#ff0000",
         "move": {
             "transition": "slideAndFade"
         }
     },
-    "cmxJSON": "rev04og_cmxjson",
-    "id": "rev04og"
+    "cmxJSON": "revcollection01_cmxjson",
+    "id": "revcollection01"
 }

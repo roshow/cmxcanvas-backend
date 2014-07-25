@@ -22,9 +22,6 @@ if (process.argv[2]){
 				console.log(res._id);
 			});
 		});
-		// db.put('cmxMetaData', model.cmxMetaData).then(function (res){
-		// 	console.log(res);
-		// });
 	});
 
 }

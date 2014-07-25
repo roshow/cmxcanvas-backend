@@ -1,4 +1,4 @@
-/* globals require, process */
+/* globals require, process, module */
 
 'use strict';
 
@@ -17,8 +17,9 @@ function parseJson(bookjson, writeFiles){
 
 	/** cmxMetaData **/
 	models.cmxMetaData = cheapClone(bookjson);
-	// console.log(models.cmxMetaData)
-	delete models.cmxMetaData.cmxJSON;
+	models.cmxMetaData.cmxJSON = bookjson.id + '_cmxjson';
+	models.cmxMetaData.img = null;
+	// console.log(models.cmxMetaData);
 
 	/** cmxJSON **/
 	models.cmxJSON = {
@@ -36,7 +37,7 @@ function parseJson(bookjson, writeFiles){
 
 		panel.popups.forEach(function (popup, ii){
 			popup.popup = ii;
-			popup.src = bookjson.img.url + popup.src
+			popup.src = bookjson.img.url + popup.src;
 		});
 	});
 

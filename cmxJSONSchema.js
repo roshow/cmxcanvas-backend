@@ -13,6 +13,7 @@ module.exports = {
                 "default": []
             },
             src: String,
+            path: String,
             transition: String,
         }
     ]

@@ -7,12 +7,11 @@ var mongoose = require('mongoose'),
     db = {},
     conf;
 
+
 conf = {
     db: {
         user: 'roshow',
         pw: '0rko***snarf',
-        host: 'ds043348.mongolab.com:43348',
-        database: 'cmxcanvas',
         models: [
             {
                 collection: 'cmxMetaData',
@@ -26,6 +25,17 @@ conf = {
     }
 };
 
+if (process.env.CANVASBOOK_ENV === 'staging'){
+    ro.log('connection to staging');
+    conf.host = 'ds053439.mongolab.com:53439';
+    conf.database = 'canvasbookstaging';
+}
+else {
+    ro.log('connecting to production');
+    conf.host = 'ds043348.mongolab.com:43348';
+    conf.database = 'cmxcanvas';
+}
+
 conf.db.models.forEach(function (model){
     var modelSchema = mongoose.Schema(model.schema, { collection: model.collection }),
         modelName = model.name || model.collection; 
@@ -37,7 +47,7 @@ db.find = function(model, query){
     ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
     mongoose.model(model).find(query || {}, function (err, docs){
-        console.log(arguments);
+        // console.log(arguments);
         if (err) { deferred.reject(err); }
         else { deferred.resolve(docs); }
     });
