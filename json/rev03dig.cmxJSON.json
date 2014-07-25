@@ -1,8 +1,10 @@
 {
+    "_id": "rev03dig_cmxjson",
     "id": "rev03dig_cmxjson",
     "JSON": [
         {
-            "src": "/images/rev03dig/panel01.png",
+            "src": "panel01.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [],
@@ -10,7 +12,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel02.png",
+            "src": "panel02.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [],
@@ -18,7 +21,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel03.jpg",
+            "src": "panel03.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [],
@@ -26,7 +30,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel04.jpg",
+            "src": "panel04.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [],
@@ -34,25 +39,29 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel05.jpg",
+            "src": "panel05.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 4,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel06.jpg",
+            "src": "panel06.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 5,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel07.jpg",
+            "src": "panel07.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel07L01.png",
+                    "src": "panel07L01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 102,
                     "y": 16,
@@ -63,11 +72,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel08.jpg",
+            "src": "panel08.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel08L01.png",
+                    "src": "panel08L01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 277,
                     "y": 286,
@@ -78,53 +89,61 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel09.jpg",
+            "src": "panel09.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 8,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel10.jpg",
+            "src": "panel10.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 9,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel11.jpg",
+            "src": "panel11.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 10,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel12.jpg",
+            "src": "panel12.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 11,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel13.jpg",
+            "src": "panel13.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 12,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel14.jpg",
+            "src": "panel14.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 13,
             "bookId": "rev03dig",
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel15.jpg",
+            "src": "panel15.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel15L01.png",
+                    "src": "panel15L01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 8,
                     "y": 261,
@@ -135,11 +154,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel16.png",
+            "src": "panel16.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel16P1.jpg",
+                    "src": "panel16P1.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 412,
                     "y": 100,
@@ -151,25 +172,29 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel17.jpg",
+            "src": "panel17.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel17L01.png",
+                    "src": "panel17L01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 292,
                     "y": 180,
                     "popup": 0
                 },
                 {
-                    "src": "/images/rev03dig/panel17L02.png",
+                    "src": "panel17L02.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 172,
                     "y": 217,
                     "popup": 1
                 },
                 {
-                    "src": "/images/rev03dig/panel17L03.png",
+                    "src": "panel17L03.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 570,
                     "y": 285,
@@ -180,11 +205,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel18.png",
+            "src": "panel18.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel18p01.jpg",
+                    "src": "panel18p01.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 414,
                     "y": 70,
@@ -196,18 +223,21 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel19.jpg",
+            "src": "panel19.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [],
             "panel": 18,
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel20.jpg",
+            "src": "panel20.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel20p01.jpg",
+                    "src": "panel20p01.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 406,
                     "y": 48,
@@ -219,18 +249,21 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel21.jpg",
+            "src": "panel21.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel21p01.png",
+                    "src": "panel21p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 307,
                     "y": 25,
                     "popup": 0
                 },
                 {
-                    "src": "/images/rev03dig/panel21p02.png",
+                    "src": "panel21p02.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 368,
                     "y": 233,
@@ -241,7 +274,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel22.jpg",
+            "src": "panel22.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "panel": 21,
@@ -249,7 +283,8 @@
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel23.jpg",
+            "src": "panel23.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "panel": 22,
@@ -257,7 +292,8 @@
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel24.jpg",
+            "src": "panel24.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "panel": 23,
@@ -265,19 +301,22 @@
             "popups": []
         },
         {
-            "src": "/images/rev03dig/panel25.jpg",
+            "src": "panel25.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel25p01.png",
+                    "src": "panel25p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 306,
                     "y": 56,
                     "popup": 0
                 },
                 {
-                    "src": "/images/rev03dig/panel25p02.png",
+                    "src": "panel25p02.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 527,
                     "y": 303,
@@ -288,12 +327,14 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel26.jpg",
+            "src": "panel26.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel26p01.png",
+                    "src": "panel26p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 640,
                     "y": 293,
@@ -304,25 +345,29 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel27.jpg",
+            "src": "panel27.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [],
             "panel": 26,
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel28.jpg",
+            "src": "panel28.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [],
             "panel": 27,
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel29.jpg",
+            "src": "panel29.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel29p01.png",
+                    "src": "panel29p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 235,
@@ -330,7 +375,8 @@
                     "popup": 0
                 },
                 {
-                    "src": "/images/rev03dig/panel29p02.png",
+                    "src": "panel29p02.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 599,
@@ -342,11 +388,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel30.jpg",
+            "src": "panel30.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel30p01.png",
+                    "src": "panel30p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 137,
                     "y": 74,
@@ -357,7 +405,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel31.jpg",
+            "src": "panel31.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [],
@@ -365,12 +414,14 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel32.jpg",
+            "src": "panel32.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "bounceback",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel32p01.png",
+                    "src": "panel32p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 44,
@@ -382,18 +433,21 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel33.jpg",
+            "src": "panel33.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [],
             "panel": 32,
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel34.jpg",
+            "src": "panel34.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel34p01.png",
+                    "src": "panel34p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 229,
                     "y": 226,
@@ -404,11 +458,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel35.jpg",
+            "src": "panel35.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel35p01.png",
+                    "src": "panel35p01.png",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "x": 470,
                     "y": 166,
@@ -419,7 +475,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel36.jpg",
+            "src": "panel36.jpg",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "bounceback",
             "popups": [],
@@ -427,11 +484,13 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel37.png",
+            "src": "panel37.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel37p01.jpg",
+                    "src": "panel37p01.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 410,
@@ -443,12 +502,14 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel38.png",
+            "src": "panel38.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel38p01.jpg",
+                    "src": "panel38p01.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 410,
@@ -460,12 +521,14 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/panel39.png",
+            "src": "panel39.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "transition": "crossfade",
             "popups": [
                 {
-                    "src": "/images/rev03dig/panel39p01.jpg",
+                    "src": "panel39p01.jpg",
+                    "path": "/images/rev03dig/",
                     "type": "popup",
                     "transition": "fadeIn",
                     "x": 410,
@@ -477,7 +540,8 @@
             "bookId": "rev03dig"
         },
         {
-            "src": "/images/rev03dig/tbc.png",
+            "src": "tbc.png",
+            "path": "/images/rev03dig/",
             "type": "panel",
             "popups": [],
             "panel": 39,

@@ -97,4 +97,8 @@ db.connect = function(){
     return deferred;
 };
 
+db.disconnect = function(){
+    mongoose.disconnect();
+};
+
 module.exports = db;

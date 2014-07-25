@@ -13,7 +13,7 @@ function cheapClone(a) {
 function parseJson(bookjson, writeFiles){
 
 	bookjson.id = bookjson.id || bookjson._id;
-	bookjson.img.url = bookjson.img.url || '';
+	// bookjson.img.url = bookjson.img.url || '';
 
 	/** cmxMetaData **/
 	models.cmxMetaData = cheapClone(bookjson);
@@ -32,12 +32,12 @@ function parseJson(bookjson, writeFiles){
 
 		panel.panel = i;
 		panel.bookId = models.cmxMetaData.id;
-		panel.src = bookjson.img.url + panel.src;
+		// panel.src = bookjson.img.url + panel.src;
 		panel.popups = panel.popups || [];
 
 		panel.popups.forEach(function (popup, ii){
 			popup.popup = ii;
-			popup.src = bookjson.img.url + popup.src;
+			// popup.src = bookjson.img.url + popup.src;
 		});
 	});
 

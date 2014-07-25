@@ -19,10 +19,6 @@
             "url": "http://roshow.net"
         }
     ],
-    "img": {
-        "_url": "http://roshow.net/public/images/cmxcanvas/rev03/",
-        "url": "/images/rev03og/"
-    },
     "view": {
         "height": "730",
         "width": "600",
@@ -30,6 +26,8 @@
             "transition": "slideAndFade"
         }
     },
+    "cmxJSON": "rev03og_cmxjson",
     "published": 1,
-    "id": "rev03og"
+    "id": "rev03og",
+    "img": null
 }

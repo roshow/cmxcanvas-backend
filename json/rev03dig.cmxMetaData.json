@@ -1,5 +1,4 @@
 {
-    "id": "rev03dig",
     "_id": "rev03dig",
     "issue": 3,
     "title": "Cluster#*@$!",
@@ -20,14 +19,13 @@
             "url": "http://roshow.net"
         }
     ],
-    "img": {
-        "_url": "http://roshow.net/public/images/cmxcanvas/rev03/",
-        "url": "/images/rev03dig/"
-    },
     "view": {
         "move": {
             "transition": "slideAndFade"
         }
     },
-    "published": 1
+    "cmxJSON": "rev03dig_cmxjson",
+    "published": 1,
+    "id": "rev03dig",
+    "img": null
 }
