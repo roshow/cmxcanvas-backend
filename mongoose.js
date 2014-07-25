@@ -10,8 +10,8 @@ var mongoose = require('mongoose'),
 
 conf = {
     db: {
-        user: 'roshow',
-        pw: '0rko***snarf',
+        user: process.env.CBDB_USER,
+        pw: process.env.CBDB_PW,
         models: [
             {
                 collection: 'cmxMetaData',
@@ -26,14 +26,16 @@ conf = {
 };
 
 if (process.env.CANVASBOOK_ENV === 'staging'){
-    ro.log('connection to staging');
-    conf.host = 'ds053439.mongolab.com:53439';
-    conf.database = 'canvasbookstaging';
+    ro.log('using staging db');
+    conf.db.host = 'ds053439.mongolab.com';
+    conf.db.database = 'canvasbookstaging';
+    conf.db.port = '53439';
 }
 else {
     ro.log('connecting to production');
-    conf.host = 'ds043348.mongolab.com:43348';
-    conf.database = 'cmxcanvas';
+    conf.db.host = 'ds043348.mongolab.com';
+    conf.db.database = 'cmxcanvas';
+    conf.db.port = '43348';
 }
 
 conf.db.models.forEach(function (model){
@@ -80,7 +82,7 @@ db.put = function(modelName, model){
 db.putABunch = function(models){
     var that = this,
         allthosepromises = [];
-    models.forEach(function(model){
+    models.forEach(function (model){
         allthosepromises.push(that.update(model));
     });
     return promised.all(allthosepromises);
@@ -88,7 +90,7 @@ db.putABunch = function(models){
 
 db.connect = function(){
     var deferred = new promised.Deferred();
-    mongoose.connect('mongodb://' + conf.db.user + ':' + conf.db.pw +  '@' + conf.db.host + '/' + conf.db.database);
+    mongoose.connect('mongodb://' + conf.db.user + ':' + conf.db.pw +  '@' + conf.db.host + ':' + conf.db.port + '/' + conf.db.database);
     mongoose.connection
         .on('error', console.error.bind(console, 'connection error:'))
         .once('open', deferred.resolve);
