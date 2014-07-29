@@ -29,13 +29,8 @@
             "id": "rev03og"
         }
     ],
-    "view": {
-        "move": {
-            "transition": "slideAndFade"
-        }
-    },
-    "cmxJSON": "rev03dig_cmxjson",
-    "published": 1,
+    "view": "rev03dig_cmxjson",
+    "published": 0,
     "id": "rev03dig",
     "img": null
 }

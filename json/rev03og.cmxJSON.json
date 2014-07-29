@@ -1,13 +1,16 @@
 {
-    "_id": "rev03og_cmxjson",
-    "id": "rev03og_cmxjson",
-    "JSON": [
+    "height": "730",
+    "width": "600",
+    "move": {
+        "transition": "slideAndFade"
+    },
+    "panels": [
         {
             "panel": 0,
             "src": "2013-07-30.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -15,7 +18,7 @@
             "src": "2013-07-31.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -23,7 +26,7 @@
             "src": "2013-08-01.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -31,7 +34,7 @@
             "src": "2013-08-06.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -39,7 +42,7 @@
             "src": "2013-08-07.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -47,7 +50,7 @@
             "src": "2013-08-08.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -55,7 +58,7 @@
             "src": "2013-08-13.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -63,7 +66,7 @@
             "src": "2013-08-14.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -71,7 +74,7 @@
             "src": "2013-08-15.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -79,7 +82,7 @@
             "src": "2013-08-20.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -87,7 +90,7 @@
             "src": "2013-08-21.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -95,7 +98,7 @@
             "src": "2013-08-22.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -103,7 +106,7 @@
             "src": "2013-08-27.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -111,7 +114,7 @@
             "src": "2013-08-28.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -119,7 +122,7 @@
             "src": "2013-08-29.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         },
         {
@@ -127,8 +130,10 @@
             "src": "2013-08-30.jpg",
             "path": "/images/rev03og/",
             "type": "panel",
-            "bookId": "rev03og",
+            "bookId": "rev03og_cmxjson",
             "popups": []
         }
-    ]
+    ],
+    "_id": "rev03og_cmxjson",
+    "id": "rev03og_cmxjson"
 }

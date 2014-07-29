@@ -4,6 +4,8 @@ module.exports = {
     id: String,
     cmxMetaData: String,
 
+    backgroundText: String,
+    backgroundColor: String,
     height: Number,
     width: Number,
     move: {

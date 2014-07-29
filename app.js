@@ -34,10 +34,10 @@ db.connect().then(function (){
             function (book){
                 /** data massaging that will hopefully go away when I clean up the DB and set upload methods with rules **/
                 book[0].id = book[0].id || book[0]._id;
-                var panelsId = book[0].cmxJSON || book[0].id + '_cmxjson';
+                var panelsId = book[0].view || book[0].id + '_cmxjson';
 
                 db.find('cmxJSON', { _id: panelsId }).then(function (panels){
-                    book[0].cmxJSON = panels[0].JSON;
+                    book[0].view = panels[0];
                     res.send({
                         code: 200,
                         data: book
