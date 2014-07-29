@@ -1,3 +1,4 @@
+/**metaData Schema **/
 module.exports = {
     _id: String,
     issue: Number,
@@ -14,17 +15,13 @@ module.exports = {
             url: String
         }
     ],
-    view: {
-        height: Number,
-        width: Number
-    },
     versions: [
         {
             format: String,
             id: String,
-            'default': Boolean
+            "default": Boolean
         }
     ],
-    cmxJSON: {},
+    view: {},
     published: Number
 };

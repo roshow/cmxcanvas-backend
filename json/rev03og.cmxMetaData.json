@@ -29,15 +29,8 @@
             "id": "rev03og"
         }
     ],
-    "view": {
-        "height": "730",
-        "width": "600",
-        "move": {
-            "transition": "slideAndFade"
-        }
-    },
-    "cmxJSON": "rev03og_cmxjson",
-    "published": 1,
+    "view": "rev03og_cmxjson",
+    "published": 0,
     "id": "rev03og",
     "img": null
 }

@@ -15,7 +15,7 @@ if (process.argv[2]){
 		var json = require(process.argv[2]).data[0],
 		model = parsejson(json, process.argv[3] || defaults.writeFile);
 		Object.keys(model).forEach(function (prop){
-			allthosepromises.push(db.put(prop, model[prop]));
+			allthosepromises.push(db.override(prop, model[prop]));
 		});
 		promised.all(allthosepromises).then(function (res){
 	    	// console.log(stuff);

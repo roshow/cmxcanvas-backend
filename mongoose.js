@@ -37,18 +37,18 @@ else {
     conf.db.database = 'cmxcanvas';
     conf.db.port = '43348';
 }
-
+var dbModels = {};
 conf.db.models.forEach(function (model){
     var modelSchema = mongoose.Schema(model.schema, { collection: model.collection }),
         modelName = model.name || model.collection; 
-    mongoose.model(modelName, modelSchema);
+    dbModels[modelName] = mongoose.model(modelName, modelSchema);
 });
 
 
 db.find = function(model, query){
     ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
-    mongoose.model(model).find(query || {}, function (err, docs){
+    dbModels[model].find(query || {}, function (err, docs){
         // console.log(arguments);
         if (err) { deferred.reject(err); }
         else { deferred.resolve(docs); }
@@ -61,7 +61,7 @@ db.put = function(modelName, model){
     if (model._id){
         var _id = model._id;
         delete model._id;
-        mongoose.model(modelName).findOneAndUpdate({ _id: _id }, model, { upsert : true }, function(err, updatedModel){
+        dbModels[modelName].findOneAndUpdate({ _id: _id }, model, { upsert : true }, function(err, updatedModel){
             if (err) {
                 def.reject(err);
             }
@@ -71,8 +71,30 @@ db.put = function(modelName, model){
         });
     }
     else {
-        mongoose.model(modelName).create(model, function(err, savedModel){
+        dbModels[modelName].create(model, function(err, savedModel){
             // console.log(arguments);
+            def.resolve(savedModel);
+        });
+    }
+    return def;
+};
+
+db.override = function(modelName, model){
+    var def = new promised.Deferred();
+    if (model._id){
+        dbModels[modelName].findOneAndRemove({ _id: model._id }, function(err){
+            if (err) {
+                def.reject(err);
+            }
+            else {
+                dbModels[modelName].create(model, function (err, savedModel){
+                    def.resolve(savedModel);
+                });
+            }
+        });
+    }
+    else {
+        dbModels[modelName].create(model, function (err, savedModel){
             def.resolve(savedModel);
         });
     }

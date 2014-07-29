@@ -1,7 +1,8 @@
 {
-    "_id": "rev03dig_cmxjson",
-    "id": "rev03dig_cmxjson",
-    "JSON": [
+    "move": {
+        "transition": "slideAndFade"
+    },
+    "panels": [
         {
             "src": "panel01.png",
             "path": "/images/rev03dig/",
@@ -9,7 +10,7 @@
             "transition": "crossfade",
             "popups": [],
             "panel": 0,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel02.png",
@@ -18,7 +19,7 @@
             "transition": "crossfade",
             "popups": [],
             "panel": 1,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel03.jpg",
@@ -27,7 +28,7 @@
             "transition": "crossfade",
             "popups": [],
             "panel": 2,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel04.jpg",
@@ -36,14 +37,14 @@
             "transition": "crossfade",
             "popups": [],
             "panel": 3,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel05.jpg",
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 4,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -51,7 +52,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 5,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -65,11 +66,13 @@
                     "type": "popup",
                     "x": 102,
                     "y": 16,
-                    "popup": 0
+                    "panel": 6,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 6,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel08.jpg",
@@ -82,18 +85,20 @@
                     "type": "popup",
                     "x": 277,
                     "y": 286,
-                    "popup": 0
+                    "panel": 7,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 7,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel09.jpg",
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 8,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -101,7 +106,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 9,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -109,7 +114,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 10,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -117,7 +122,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 11,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -125,7 +130,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 12,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -133,7 +138,7 @@
             "path": "/images/rev03dig/",
             "type": "panel",
             "panel": 13,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -147,11 +152,13 @@
                     "type": "popup",
                     "x": 8,
                     "y": 261,
-                    "popup": 0
+                    "panel": 14,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 14,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel16.png",
@@ -165,11 +172,13 @@
                     "x": 412,
                     "y": 100,
                     "transition": "fadeIn",
-                    "popup": 0
+                    "panel": 15,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 15,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel17.jpg",
@@ -182,7 +191,9 @@
                     "type": "popup",
                     "x": 292,
                     "y": 180,
-                    "popup": 0
+                    "panel": 16,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 },
                 {
                     "src": "panel17L02.png",
@@ -190,7 +201,9 @@
                     "type": "popup",
                     "x": 172,
                     "y": 217,
-                    "popup": 1
+                    "panel": 16,
+                    "popup": 1,
+                    "bookId": "rev03dig_cmxjson"
                 },
                 {
                     "src": "panel17L03.png",
@@ -198,11 +211,13 @@
                     "type": "popup",
                     "x": 570,
                     "y": 285,
-                    "popup": 2
+                    "panel": 16,
+                    "popup": 2,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 16,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel18.png",
@@ -216,11 +231,13 @@
                     "x": 414,
                     "y": 70,
                     "transition": "fadeIn",
-                    "popup": 0
+                    "panel": 17,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 17,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel19.jpg",
@@ -228,7 +245,7 @@
             "type": "panel",
             "popups": [],
             "panel": 18,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel20.jpg",
@@ -242,11 +259,13 @@
                     "x": 406,
                     "y": 48,
                     "transition": "fadeIn",
-                    "popup": 0
+                    "panel": 19,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 19,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel21.jpg",
@@ -259,7 +278,9 @@
                     "type": "popup",
                     "x": 307,
                     "y": 25,
-                    "popup": 0
+                    "panel": 20,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 },
                 {
                     "src": "panel21p02.png",
@@ -267,11 +288,13 @@
                     "type": "popup",
                     "x": 368,
                     "y": 233,
-                    "popup": 1
+                    "panel": 20,
+                    "popup": 1,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 20,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel22.jpg",
@@ -279,7 +302,7 @@
             "type": "panel",
             "transition": "crossfade",
             "panel": 21,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -288,7 +311,7 @@
             "type": "panel",
             "transition": "crossfade",
             "panel": 22,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -297,7 +320,7 @@
             "type": "panel",
             "transition": "crossfade",
             "panel": 23,
-            "bookId": "rev03dig",
+            "bookId": "rev03dig_cmxjson",
             "popups": []
         },
         {
@@ -312,7 +335,9 @@
                     "type": "popup",
                     "x": 306,
                     "y": 56,
-                    "popup": 0
+                    "panel": 24,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 },
                 {
                     "src": "panel25p02.png",
@@ -320,11 +345,13 @@
                     "type": "popup",
                     "x": 527,
                     "y": 303,
-                    "popup": 1
+                    "panel": 24,
+                    "popup": 1,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 24,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel26.jpg",
@@ -338,11 +365,13 @@
                     "type": "popup",
                     "x": 640,
                     "y": 293,
-                    "popup": 0
+                    "panel": 25,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 25,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel27.jpg",
@@ -350,7 +379,7 @@
             "type": "panel",
             "popups": [],
             "panel": 26,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel28.jpg",
@@ -358,7 +387,7 @@
             "type": "panel",
             "popups": [],
             "panel": 27,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel29.jpg",
@@ -372,7 +401,9 @@
                     "transition": "fadeIn",
                     "x": 235,
                     "y": 191,
-                    "popup": 0
+                    "panel": 28,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 },
                 {
                     "src": "panel29p02.png",
@@ -381,11 +412,13 @@
                     "transition": "fadeIn",
                     "x": 599,
                     "y": 221,
-                    "popup": 1
+                    "panel": 28,
+                    "popup": 1,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 28,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel30.jpg",
@@ -398,11 +431,13 @@
                     "type": "popup",
                     "x": 137,
                     "y": 74,
-                    "popup": 0
+                    "panel": 29,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 29,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel31.jpg",
@@ -411,7 +446,7 @@
             "transition": "crossfade",
             "popups": [],
             "panel": 30,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel32.jpg",
@@ -426,11 +461,13 @@
                     "transition": "fadeIn",
                     "x": 44,
                     "y": 0,
-                    "popup": 0
+                    "panel": 31,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 31,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel33.jpg",
@@ -438,7 +475,7 @@
             "type": "panel",
             "popups": [],
             "panel": 32,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel34.jpg",
@@ -451,11 +488,13 @@
                     "type": "popup",
                     "x": 229,
                     "y": 226,
-                    "popup": 0
+                    "panel": 33,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 33,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel35.jpg",
@@ -468,11 +507,13 @@
                     "type": "popup",
                     "x": 470,
                     "y": 166,
-                    "popup": 0
+                    "panel": 34,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 34,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel36.jpg",
@@ -481,7 +522,7 @@
             "transition": "bounceback",
             "popups": [],
             "panel": 35,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel37.png",
@@ -495,11 +536,13 @@
                     "transition": "fadeIn",
                     "x": 410,
                     "y": 58,
-                    "popup": 0
+                    "panel": 36,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 36,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel38.png",
@@ -514,11 +557,13 @@
                     "transition": "fadeIn",
                     "x": 410,
                     "y": 58,
-                    "popup": 0
+                    "panel": 37,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 37,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "panel39.png",
@@ -533,11 +578,13 @@
                     "transition": "fadeIn",
                     "x": 410,
                     "y": 58,
-                    "popup": 0
+                    "panel": 38,
+                    "popup": 0,
+                    "bookId": "rev03dig_cmxjson"
                 }
             ],
             "panel": 38,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         },
         {
             "src": "tbc.png",
@@ -545,7 +592,9 @@
             "type": "panel",
             "popups": [],
             "panel": 39,
-            "bookId": "rev03dig"
+            "bookId": "rev03dig_cmxjson"
         }
-    ]
+    ],
+    "_id": "rev03dig_cmxjson",
+    "id": "rev03dig_cmxjson"
 }
