@@ -4,7 +4,7 @@ var parsejson = require('./parsejson'),
 	defaults;
 
 defaults = {
-	writeFile: true
+	writeFile: false
 };
 
 

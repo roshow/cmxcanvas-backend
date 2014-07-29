@@ -18,6 +18,13 @@ module.exports = {
         height: Number,
         width: Number
     },
+    versions: [
+        {
+            format: String,
+            id: String,
+            'default': Boolean
+        }
+    ],
     cmxJSON: {},
     published: Number
-}
+};
