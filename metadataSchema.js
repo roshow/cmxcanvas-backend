@@ -1,6 +1,7 @@
 /**metaData Schema **/
 module.exports = {
     _id: String,
+    id: String,
     issue: Number,
     title: String,
     thumb: String,

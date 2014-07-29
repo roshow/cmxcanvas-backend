@@ -41,12 +41,12 @@ function parseJson(bookjson, writeFiles){
 		});
 	});
 
-	// if (writeFiles){
+	if (writeFiles){
 		Object.keys(models).forEach(function (key){
 			var filename = bookjson.id + '.' + key + '.json';
 			fs.writeFile('./json/' + filename, JSON.stringify(models[key], null, 4));
 		});
-	// }
+	}
 
 	return models;
 }

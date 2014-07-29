@@ -4,7 +4,7 @@ module.exports = {
     id: String,
     cmxMetaData: String,
 
-    backgroundText: String,
+    backgroundTextColor: String,
     backgroundColor: String,
     height: Number,
     width: Number,
