@@ -17,26 +17,26 @@ function parseJson(bookjson, writeFiles){
 
 	/** cmxMetaData **/
 	models.cmxMetaData = cheapClone(bookjson);
-	models.cmxMetaData.cmxJSON = bookjson.id + '_cmxjson';
+	models.cmxMetaData.view = bookjson.id + '_cmxjson';
 	models.cmxMetaData.img = null;
 	// console.log(models.cmxMetaData);
 
 	/** cmxJSON **/
-	models.cmxJSON = {
-		_id: bookjson.id + '_cmxjson',
-		id: bookjson.id + '_cmxjson',
-		JSON: cheapClone(bookjson.cmxJSON)
-	};
+	models.cmxJSON = cheapClone(bookjson.view);
+	models.cmxJSON._id = bookjson.id + '_cmxjson';
+	models.cmxJSON.id = bookjson.id + '_cmxjson';
 
-	models.cmxJSON.JSON.forEach(function (panel, i){
+	models.cmxJSON.panels.forEach(function (panel, i){
 
 		panel.panel = i;
-		panel.bookId = models.cmxMetaData.id;
+		panel.bookId = models.cmxJSON.id;
 		// panel.src = bookjson.img.url + panel.src;
 		panel.popups = panel.popups || [];
 
 		panel.popups.forEach(function (popup, ii){
+			popup.panel = i;
 			popup.popup = ii;
+			popup.bookId = models.cmxJSON.id;
 			// popup.src = bookjson.img.url + popup.src;
 		});
 	});
