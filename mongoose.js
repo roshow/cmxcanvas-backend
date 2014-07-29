@@ -46,7 +46,7 @@ conf.db.models.forEach(function (model){
 
 
 db.find = function(model, query){
-    ro.log('finding:', query, 'in:', model);
+    // ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
     dbModels[model].find(query || {}, function (err, docs){
         // console.log(arguments);
@@ -72,8 +72,12 @@ db.put = function(modelName, model){
     }
     else {
         dbModels[modelName].create(model, function(err, savedModel){
-            // console.log(arguments);
-            def.resolve(savedModel);
+            if (err) {
+                def.reject(err);
+            }
+            else {
+                def.resolve(savedModel);
+            }
         });
     }
     return def;
