@@ -20,7 +20,7 @@ conf = {
             },
             {
                 collection: 'cmxJSON',
-                schema: require('./cmxJSONSchema'),
+                schema: require('./viewSchema'),
             }
         ]
     }
