@@ -1,3 +1,5 @@
+/* globals require */
+
 'use strict';
 
 var mongoose = require('mongoose'),
@@ -23,7 +25,6 @@ conf = {
         ]
     }
 };
-
 if (process.env.CANVASBOOK_ENV === 'staging'){
     ro.log('using staging db');
     conf.db.host = 'ds053439.mongolab.com';
@@ -50,9 +51,7 @@ db.find = function(model, query){
     dbModels[model].find(query || {}, function (err, docs){
         // console.log(arguments);
         if (err) { deferred.reject(err); }
-        else { 
-            deferred.resolve(docs); 
-        }
+        else { deferred.resolve(docs); }
     });
     return deferred;
 };
