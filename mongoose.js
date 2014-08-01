@@ -1,9 +1,8 @@
 'use strict';
 
-var ro = global.ro || require('./routils');
-
 var mongoose = require('mongoose'),
     promised = require('promised-io/promise'),
+    ro = require('./routils'),
     db = {},
     conf;
 
@@ -51,7 +50,9 @@ db.find = function(model, query){
     dbModels[model].find(query || {}, function (err, docs){
         // console.log(arguments);
         if (err) { deferred.reject(err); }
-        else { deferred.resolve(docs); }
+        else { 
+            deferred.resolve(docs); 
+        }
     });
     return deferred;
 };

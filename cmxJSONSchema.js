@@ -1,3 +1,4 @@
+var Schema = require('mongoose').Schema;
 module.exports = {
 
     _id: String,
