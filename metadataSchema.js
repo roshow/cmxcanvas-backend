@@ -1,5 +1,20 @@
 /**metaData Schema **/
-module.exports = {
+'use strict';
+var cmxMetaDataSchema, creatorSchema, versionsSchema;
+
+versionsSchema = {
+    format: String,
+    id: String,
+    "default": Boolean
+};
+
+creatorSchema = {
+    name: String,
+    credit: String,
+    url: String
+};
+
+cmxMetaDataSchema = {
     _id: String,
     id: String,
     issue: Number,
@@ -9,20 +24,11 @@ module.exports = {
         name: String,
         id: String
     },
-    creators: [
-        {
-            name: String,
-            credit: String,
-            url: String
-        }
-    ],
-    versions: [
-        {
-            format: String,
-            id: String,
-            "default": Boolean
-        }
-    ],
+    creators: [ creatorSchema ],
+    versions: [ versionsSchema ],
     view: {},
+    view_id: String,
     published: Number
 };
+
+module.exports = cmxMetaDataSchema;

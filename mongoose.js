@@ -1,9 +1,10 @@
-'use strict';
+/* globals require */
 
-var ro = global.ro || require('./routils');
+'use strict';
 
 var mongoose = require('mongoose'),
     promised = require('promised-io/promise'),
+    ro = require('./routils'),
     db = {},
     conf;
 
@@ -19,12 +20,11 @@ conf = {
             },
             {
                 collection: 'cmxJSON',
-                schema: require('./cmxJSONSchema'),
+                schema: require('./viewSchema'),
             }
         ]
     }
 };
-
 if (process.env.CANVASBOOK_ENV === 'staging'){
     ro.log('using staging db');
     conf.db.host = 'ds053439.mongolab.com';
