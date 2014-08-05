@@ -1,9 +1,9 @@
+/*globals require, process, console */
 'use strict';
-global.ro = require('./routils');
-var ro = global.ro;
 
 var restify = require('restify'),
     db = require('./mongoose'),
+    ro = require('./routils'),
     server = restify.createServer({ name: 'cxmcanvas' });
 
 db.connect().then(function (){
@@ -30,7 +30,7 @@ db.connect().then(function (){
     });
 
     server.get('/cmx/:id', function (req, res, next){
-         db.find('cmxMetaData', { _id: req.params.id }).then(
+        db.find('cmxMetaData', { _id: req.params.id }).then(
             function (book){
                 /** data massaging that will hopefully go away when I clean up the DB and set upload methods with rules **/
                 book[0].id = book[0].id || book[0]._id;
@@ -45,6 +45,7 @@ db.connect().then(function (){
                 }, function (error){ console.log(error); });
 
             }, function (error){ console.log(error); });
+        next();
     });
 
     server.get('/panels/:id', function (req, res, next){

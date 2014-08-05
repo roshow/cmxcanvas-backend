@@ -27,6 +27,7 @@ cmxMetaDataSchema = {
     creators: [ creatorSchema ],
     versions: [ versionsSchema ],
     view: {},
+    view_id: String,
     published: Number
 };
 
