@@ -30,6 +30,7 @@ viewSchema = {
     backgroundColor: String,
     height: Number,
     width: Number,
+    imgPath: String,
     move: {
         transition: String
     },
