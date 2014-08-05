@@ -17,14 +17,14 @@ function parseJson(bookjson, writeFiles){
 
 	/** cmxMetaData **/
 	models.cmxMetaData = cheapClone(bookjson);
-	models.cmxMetaData.view = bookjson.id + '_cmxjson';
+	delete models.cmxMetaData.view;
 	models.cmxMetaData.img = null;
 	// console.log(models.cmxMetaData);
 
 	/** cmxJSON **/
 	models.cmxJSON = cheapClone(bookjson.view);
-	models.cmxJSON._id = bookjson.id + '_cmxjson';
-	models.cmxJSON.id = bookjson.id + '_cmxjson';
+	models.cmxJSON._id = bookjson.view_id;
+	models.cmxJSON.id = bookjson.view_id;
 
 	models.cmxJSON.panels.forEach(function (panel, i){
 

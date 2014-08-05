@@ -1,7 +1,7 @@
 var db = require('./mongoose'),
     promised = require('promised-io/promise'),
     queries = [
-      {id:'rev03dig_cmxjson'},
+      {id:'rev03dig_view'},
       {}
     ];
     
