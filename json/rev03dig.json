@@ -33,6 +33,7 @@
                     "id": "rev03og"
                 }
             ],
+            "view_id": "rev03dig_view",
             "view": {
                 "move": {
                     "transition": "slideAndFade"

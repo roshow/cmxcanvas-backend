@@ -1,7 +1,7 @@
 var db = require('./mongoose'),
     promised = require('promised-io/promise'),
     queries = [
-      {id:'rev03dig_cmxjson'},
+      {id:'rev03dig_view'},
       {}
     ];
     
@@ -14,7 +14,7 @@ var db = require('./mongoose'),
                     console.log('no match');
                 }
                 else if (!doc._id){
-                    console.log('no _sid');
+                    console.log('no _id');
                 }
                 else if(!doc.panels){
                     console.log('no panels, id=' + doc._id);
