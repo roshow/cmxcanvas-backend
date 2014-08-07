@@ -25,7 +25,9 @@ cmxMetaDataSchema = {
         id: String
     },
     creators: [ creatorSchema ],
-    versions: [ formatsSchema ],
+    standardFormat: formatsSchema,
+    formats: [ formatsSchema ],
+    formatDefault: formatsSchema,
     view: {},
     view_id: String,
     published: Boolean

@@ -18,15 +18,20 @@ function booksGetOne(req, res, next){
     db.find('cmxMetaData', { id: req.params.id }).then(
         function (book){
             var viewId = book[0].view_id;
-
-            if (req.params.format && book[0].versions){
-                var bookvers = book[0].versions;
-                for (var i = 0, l = bookvers.length; i < l; i++){
-                    if (bookvers[i].format === req.params.format){
-                        viewId = bookvers[i].view_id;
+            if (req.params.format){
+                var formats = book[0].formats;
+                for (var i = 0, l = formats.length; i < l; i++){
+                    if (formats[i].format === req.params.format){
+                        viewId = formats[i].view_id;
                         break;
                     }
+                    if (formats[i].default === true){
+                        viewId = formats[i].view_id;
+                    }
                 }
+            }
+            else {
+                ;                
             }
 
             db.find('cmxJSON', { id: viewId }).then(function (panels){

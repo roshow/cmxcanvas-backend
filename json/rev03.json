@@ -23,16 +23,17 @@
                 }
             ],
             "published": true,
-            "defaultFormat": {
-                "format": "digital",
-                "view_id": "rev03dig"
-            },
             "formats": [
+                {
+                    "format": "digital",
+                    "view_id": "rev03dig"
+                },
                 {
                     "format": "classic",
                     "view_id": "rev03og"
                 }
             ],
+            "view_id": "rev03dig"
         }
     ]
 }
