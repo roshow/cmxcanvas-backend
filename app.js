@@ -15,12 +15,12 @@ db.connect().then(function (){
 
     server
       .use(restify.fullResponse())
-      .use(restify.bodyParser());
+      .use(restify.bodyParser())
+      .use(restify.queryParser());
 
     server.get('/books', handler.books.getAll);
-
+    server.get('/books/', handler.books.getAll);
     server.get('/books/:id', handler.books.getOne);
-
     server.get('/views/:id', handler.views.getOne);
 
 

@@ -4,7 +4,7 @@ var cmxMetaDataSchema, creatorSchema, versionsSchema;
 
 versionsSchema = {
     format: String,
-    id: String,
+    view_id: String,
     "default": Boolean
 };
 
