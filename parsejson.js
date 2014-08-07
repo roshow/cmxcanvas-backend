@@ -15,11 +15,12 @@ function parseJson(bookjson){
 	// bookjson.img.url = bookjson.img.url || '';
 
 	/** cmxMetaData **/
-	models.cmxMetaData = cheapClone(bookjson);
-	if (models.cmxMetaData.view){
-		delete models.cmxMetaData.view;
+	if (bookjson.id){
+		models.cmxMetaData = cheapClone(bookjson);
+		if (models.cmxMetaData.view){
+			delete models.cmxMetaData.view;
+		}
 	}
-	// console.log(models.cmxMetaData);
 
 	/** cmxJSON **/
 	if (bookjson.view){

@@ -5,7 +5,8 @@ var cmxMetaDataSchema, creatorSchema, versionsSchema;
 versionsSchema = {
     format: String,
     view_id: String,
-    "default": Boolean
+    "default": Boolean,
+    published: Boolean
 };
 
 creatorSchema = {
@@ -28,7 +29,7 @@ cmxMetaDataSchema = {
     versions: [ versionsSchema ],
     view: {},
     view_id: String,
-    published: Number
+    published: Boolean
 };
 
 module.exports = cmxMetaDataSchema;
