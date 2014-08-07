@@ -1,8 +1,8 @@
 /**metaData Schema **/
 'use strict';
-var cmxMetaDataSchema, creatorSchema, versionsSchema;
+var cmxMetaDataSchema, creatorSchema, formatsSchema;
 
-versionsSchema = {
+formatsSchema = {
     format: String,
     view_id: String,
     "default": Boolean,
@@ -25,7 +25,9 @@ cmxMetaDataSchema = {
         id: String
     },
     creators: [ creatorSchema ],
-    versions: [ versionsSchema ],
+    standardFormat: formatsSchema,
+    formats: [ formatsSchema ],
+    formatDefault: formatsSchema,
     view: {},
     view_id: String,
     published: Boolean

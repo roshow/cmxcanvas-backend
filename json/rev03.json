@@ -23,7 +23,7 @@
                 }
             ],
             "published": true,
-            "versions": [
+            "formats": [
                 {
                     "format": "digital",
                     "view_id": "rev03dig"
