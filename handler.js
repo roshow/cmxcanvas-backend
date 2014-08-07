@@ -30,12 +30,9 @@ function booksGetOne(req, res, next){
                     }
                 }
             }
-            else {
-                ;                
-            }
 
-            db.find('cmxJSON', { id: viewId }).then(function (panels){
-                book[0].view = panels[0];
+            db.find('cmxJSON', { id: viewId }).then(function (views){
+                book[0].view = views[0];
                 res.send({
                     code: 200,
                     data: book
@@ -48,10 +45,10 @@ function booksGetOne(req, res, next){
 
 function viewsGetOne(req, res, next){
     db.find('cmxJSON', { id: req.params.id }).then(
-        function (panels){
+        function (views){
             res.send({
                 code: 200,
-                data: panels
+                data: views
             });
         }, function (error){
             console.log(error);
