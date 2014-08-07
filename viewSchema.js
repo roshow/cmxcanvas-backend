@@ -22,7 +22,6 @@ panelSchema = {
 
 viewSchema = {
 
-    _id: String,
     id: String,
     cmxMetaData: String,
     

@@ -11,9 +11,6 @@ function cheapClone(a) {
 
 function parseJson(bookjson){
 
-	bookjson.id = bookjson.id || bookjson._id;
-	// bookjson.img.url = bookjson.img.url || '';
-
 	/** cmxMetaData **/
 	if (bookjson.id){
 		models.cmxMetaData = cheapClone(bookjson);
@@ -25,7 +22,6 @@ function parseJson(bookjson){
 	/** cmxJSON **/
 	if (bookjson.view){
 		models.cmxJSON = cheapClone(bookjson.view);
-		models.cmxJSON._id = bookjson.view_id;
 		models.cmxJSON.id = bookjson.view_id;
 
 		models.cmxJSON.panels.forEach(function (panel, i){

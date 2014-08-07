@@ -58,10 +58,8 @@ db.find = function(model, query){
 
 db.put = function(modelName, model){
     var def = new promised.Deferred();
-    if (model._id){
-        var _id = model._id;
-        delete model._id;
-        dbModels[modelName].findOneAndUpdate({ _id: _id }, model, { upsert : true }, function(err, updatedModel){
+    if (model.id){
+        dbModels[modelName].findOneAndUpdate({ id: model.id }, model, { upsert : true }, function(err, updatedModel){
             if (err) {
                 def.reject(err);
             }
@@ -85,8 +83,8 @@ db.put = function(modelName, model){
 
 db.override = function(modelName, model){
     var def = new promised.Deferred();
-    if (model._id){
-        dbModels[modelName].findOneAndRemove({ _id: model._id }, function(err){
+    if (model.id){
+        dbModels[modelName].findOneAndRemove({ id: model.id }, function(err){
             if (err) {
                 def.reject(err);
             }

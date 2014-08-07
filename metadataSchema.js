@@ -16,7 +16,6 @@ creatorSchema = {
 };
 
 cmxMetaDataSchema = {
-    _id: String,
     id: String,
     issue: Number,
     title: String,
