@@ -25,17 +25,12 @@ function parseJson(bookjson){
 		models.cmxJSON.id = bookjson.view_id;
 
 		models.cmxJSON.panels.forEach(function (panel, i){
-
 			panel.panel = i;
-			panel.bookId = models.cmxJSON.id;
-			// panel.src = bookjson.img.url + panel.src;
 			panel.popups = panel.popups || [];
 
 			panel.popups.forEach(function (popup, ii){
 				popup.panel = i;
 				popup.popup = ii;
-				popup.bookId = models.cmxJSON.id;
-				// popup.src = bookjson.img.url + popup.src;
 			});
 		});
 	}

@@ -2,7 +2,7 @@
     "code": 200,
     "data": [
         {
-            "view_id": "rev03dig_view",
+            "view_id": "rev03dig",
             "view": {
                 "move": {
                     "transition": "slideAndFade"
