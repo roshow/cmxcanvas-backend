@@ -1,4 +1,4 @@
-var db = require('./mongoose'),
+var db = require('./db'),
     promised = require('promised-io/promise'),
     queries = [
       {id:'rev03dig_view'},

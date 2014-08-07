@@ -1,5 +1,5 @@
 var parsejson = require('./parsejson'),
-	db = require('./mongoose'),
+	db = require('./db'),
     promised = require('promised-io/promise'),
 	defaults;
 
