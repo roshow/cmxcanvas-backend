@@ -2,7 +2,6 @@
     "code": 200,
     "data": [
         {
-            "_id": "rev03",
             "id": "rev03",
             "issue": 3,
             "title": "Clusterf'd! (Preview)",
