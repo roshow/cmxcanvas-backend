@@ -16,20 +16,9 @@ db.connect().then(function (){
       .use(restify.fullResponse())
       .use(restify.bodyParser());
 
-    server.get('/cmx', function (req, res, next){
-        db.find('cmxMetaData', {}).then(
-            function (comics){
-                res.send({
-                    code: 200,
-                    data: comics
-                });
-            }, function (error){
-                console.log(error);
-            });
-        next();
-    });
+    server.get('/books', );
 
-    server.get('/cmx/:id', function (req, res, next){
+    server.get('/books/:id', function (req, res, next){
         db.find('cmxMetaData', { _id: req.params.id }).then(
             function (book){
                 /** data massaging that will hopefully go away when I clean up the DB and set upload methods with rules **/
