@@ -11,20 +11,20 @@ function cheapClone(a) {
 
 function parseJson(bookjson){
 
-	/** cmxMetaData **/
+	/** MetaData **/
 	if (bookjson.id){
-		models.cmxMetaData = cheapClone(bookjson);
-		if (models.cmxMetaData.view){
-			delete models.cmxMetaData.view;
+		models.metaData = cheapClone(bookjson);
+		if (models.metaData.view){
+			delete models.metaData.view;
 		}
 	}
 
-	/** cmxJSON **/
+	/** Views **/
 	if (bookjson.view){
-		models.cmxJSON = cheapClone(bookjson.view);
-		models.cmxJSON.id = bookjson.view_id;
+		models.views = cheapClone(bookjson.view);
+		models.views.id = bookjson.view_id;
 
-		models.cmxJSON.panels.forEach(function (panel, i){
+		models.views.panels.forEach(function (panel, i){
 			panel.panel = i;
 			panel.popups = panel.popups || [];
 

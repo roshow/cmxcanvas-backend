@@ -5,7 +5,7 @@ var fs = require('fs'),
 	defaults;
 
 defaults = {
-	writeFile: process.argv[3] || false
+	writeFile: true
 };
 
 
@@ -18,7 +18,7 @@ if (process.argv[2]){
 		Object.keys(model).forEach(function (prop){
 			if (defaults.writeFile){
 				var filename = model[prop].id + '.' + prop + '.json';
-				fs.writeFile('./json/' + filename, JSON.stringify(model[prop], null, 4));
+				fs.writeFile('./json/db/' + filename, JSON.stringify(model[prop], null, 4));
 			}
 			allthosepromises.push(db.override(prop, model[prop]));
 		});

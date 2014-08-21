@@ -1,7 +1,7 @@
 var db = require('./db');
 
 function booksGetAll(req, res, next){
-    db.find('cmxMetaData', {}).then(
+    db.find('metaData', {}).then(
         function (comics){
             res.send({
                 code: 200,
@@ -15,7 +15,7 @@ function booksGetAll(req, res, next){
 
 function booksGetOne(req, res, next){
     console.log(req.params);
-    db.find('cmxMetaData', { id: req.params.id }).then(
+    db.find('metaData', { id: req.params.id }).then(
         function (book){
             if (req.params.format){
                 var formats = book[0].formats;
