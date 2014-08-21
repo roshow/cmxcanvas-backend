@@ -15,11 +15,11 @@ conf = {
         pw: process.env.CBDB_PW,
         models: [
             {
-                collection: 'cmxMetaData',
+                collection: 'metaData',
                 schema: require('./metadataSchema'),
             },
             {
-                collection: 'cmxJSON',
+                collection: 'views',
                 schema: require('./viewSchema'),
             }
         ]
@@ -84,12 +84,15 @@ db.put = function(modelName, model){
 db.override = function(modelName, model){
     var def = new promised.Deferred();
     if (model.id){
+        // console.log('got model.id, removing ' + model.id);
         dbModels[modelName].findOneAndRemove({ id: model.id }, function(err){
             if (err) {
                 def.reject(err);
             }
             else {
+                // console.log('creating new');
                 dbModels[modelName].create(model, function (err, savedModel){
+                    console.log(err);
                     def.resolve(savedModel);
                 });
             }

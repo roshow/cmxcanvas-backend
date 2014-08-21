@@ -1,6 +1,6 @@
 /**metaData Schema **/
 'use strict';
-var cmxMetaDataSchema, creatorSchema, formatsSchema;
+var metaDataSchema, creatorSchema, formatsSchema;
 
 formatsSchema = {
     format: String,
@@ -15,7 +15,7 @@ creatorSchema = {
     url: String
 };
 
-cmxMetaDataSchema = {
+metaDataSchema = {
     id: String,
     issue: Number,
     title: String,
@@ -33,4 +33,4 @@ cmxMetaDataSchema = {
     published: Boolean
 };
 
-module.exports = cmxMetaDataSchema;
+module.exports = metaDataSchema;

@@ -34,7 +34,7 @@ function parseJson(bookjson){
 			});
 		});
 	}
-
+	console.log(models)
 	return models;
 }
 

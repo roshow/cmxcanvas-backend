@@ -1,4 +1,5 @@
 var db = require('./db');
+/** This is so repetative, it's sad. It can be broken down into like 2 function, tops and call them with apply from the export object. **/
 
 function booksGetAll(req, res, next){
     db.find('metaData', {}).then(
@@ -14,9 +15,10 @@ function booksGetAll(req, res, next){
 }
 
 function booksGetOne(req, res, next){
-    console.log(req.params);
+    // console.log(req.params);
     db.find('metaData', { id: req.params.id }).then(
         function (book){
+            // console.log(book.view_id);
             if (req.params.format){
                 var formats = book[0].formats;
                 for (var i = 0, l = formats.length; i < l; i++){
@@ -30,7 +32,7 @@ function booksGetOne(req, res, next){
                 }
             }
 
-            db.find('cmxJSON', { id: book[0].view_id }).then(function (views){
+            db.find('views', { id: book[0].view_id }).then(function (views){
                 book[0].view = views[0];
                 res.send({
                     code: 200,
@@ -42,9 +44,24 @@ function booksGetOne(req, res, next){
     next();
 }
 
-function viewsGetOne(req, res, next){
-    db.find('cmxJSON', { id: req.params.id }).then(
+function viewsGetAll(req, res, next){
+    db.find('views', {}).then(
         function (views){
+            res.send({
+                code: 200,
+                data: views
+            });
+        }, function (error){
+            console.log(error);
+        });
+    next();
+}
+
+function viewsGetOne(req, res, next){
+    db.find('views', { id: req.params.id }).then(
+        function (views){
+            // console.log('views');
+            // console.log(views);
             res.send({
                 code: 200,
                 data: views
@@ -61,6 +78,7 @@ module.exports = {
         getOne: booksGetOne
     },
     views: {
-        getOne: viewsGetOne
+        getOne: viewsGetOne,
+        getAll: viewsGetAll
     }
 };

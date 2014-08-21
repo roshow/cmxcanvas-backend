@@ -1,11 +1,11 @@
 {
     "code": 200,
     "data": [
-        {
-            "view_id": "rev03dig",
+        { 
             "view": {
+                "view_id": "rev03dig",
                 "move": {
-                    "transition": "slideAndFade"
+                    "transition": "crossfade"
                 },
                 "imgPath": "/images/rev03dig/",
                 "panels": [

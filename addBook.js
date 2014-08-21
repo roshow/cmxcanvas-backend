@@ -20,10 +20,12 @@ if (process.argv[2]){
 				var filename = model[prop].id + '.' + prop + '.json';
 				fs.writeFile('./json/db/' + filename, JSON.stringify(model[prop], null, 4));
 			}
+			// console.log(model[prop]);
 			allthosepromises.push(db.override(prop, model[prop]));
 		});
 		promised.all(allthosepromises).then(function (res){
 	    	// console.log(stuff);
+	    	console.log(res);
 	    	for (var i = 0, l = res.length; i < l; i++){
 	    		console.log(res[i]._id);
 	    	}
