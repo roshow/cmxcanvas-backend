@@ -2,12 +2,12 @@
     {
         "__collection": "views",
         "id": "rev03og",
-        "height": "730",
-        "width": "600",
+        "height": "1167",
+        "width": "810",
         "move": {
             "transition": "slideAndFade"
         },
-        "imgPath": "/images/rev03og/",
+        "imgPath": "/images/rev03ogl/",
         "panels": [
             {
                 "panel": 0,
