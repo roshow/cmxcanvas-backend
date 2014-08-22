@@ -46,10 +46,8 @@ conf.db.models.forEach(function (model){
 
 
 db.find = function(model, query){
-    // ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
     dbModels[model].find(query || {}, function (err, docs){
-        // console.log(arguments);
         if (err) { deferred.reject(err); }
         else { deferred.resolve(docs); }
     });
@@ -84,13 +82,11 @@ db.put = function(modelName, model){
 db.override = function(modelName, model){
     var def = new promised.Deferred();
     if (model.id){
-        // console.log('got model.id, removing ' + model.id);
         dbModels[modelName].findOneAndRemove({ id: model.id }, function(err){
             if (err) {
                 def.reject(err);
             }
             else {
-                // console.log('creating new');
                 dbModels[modelName].create(model, function (err, savedModel){
                     // console.log(err);
                     def.resolve(savedModel);

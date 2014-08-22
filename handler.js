@@ -15,26 +15,21 @@ function booksGetAll(req, res, next){
 }
 
 function booksGetOne(req, res, next){
-    // console.log(req.params);
     db.find('metaData', { id: req.params.id }).then(
         function (book){
-            // console.log(book.view_id);
+            book = book[0];
             if (req.params.format){
-                var formats = book[0].formats;
+                var formats = book.formats;
                 for (var i = 0, l = formats.length; i < l; i++){
                     if (formats[i].format === req.params.format){
-                        book[0].view_id = formats[i].view_id;
+                        book.view_id = formats[i].view_id;
                         break;
                     }
-                    // if (formats[i].default === true){
-                    //     book[0].view_id = formats[i].view_id;
-                    // }
                 }
             }
 
-            db.find('views', { id: book[0].view_id }).then(function (views){
-                // console.log(view);
-                book[0].view = views[0];
+            db.find('views', { id: book.view_id }).then(function (views){
+                book.view = views[0];
                 res.send({
                     code: 200,
                     data: book
