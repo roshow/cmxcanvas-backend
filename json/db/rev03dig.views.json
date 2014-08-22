@@ -1,0 +1,476 @@
+{
+    "__v": 0,
+    "id": "rev03dig",
+    "imgPath": "/images/rev03dig/",
+    "_id": "53f6ccf8518833d1dc2b20bd",
+    "panels": [
+        {
+            "src": "panel01.png",
+            "transition": "crossfade",
+            "panel": 0,
+            "_id": "53f6ccf8518833d1dc2b20fc",
+            "popups": []
+        },
+        {
+            "src": "panel02.png",
+            "transition": "crossfade",
+            "panel": 1,
+            "_id": "53f6ccf8518833d1dc2b20fb",
+            "popups": []
+        },
+        {
+            "src": "panel03.jpg",
+            "transition": "crossfade",
+            "panel": 2,
+            "_id": "53f6ccf8518833d1dc2b20fa",
+            "popups": []
+        },
+        {
+            "src": "panel04.jpg",
+            "transition": "crossfade",
+            "panel": 3,
+            "_id": "53f6ccf8518833d1dc2b20f9",
+            "popups": []
+        },
+        {
+            "src": "panel05.jpg",
+            "panel": 4,
+            "_id": "53f6ccf8518833d1dc2b20f8",
+            "popups": []
+        },
+        {
+            "src": "panel06.jpg",
+            "panel": 5,
+            "_id": "53f6ccf8518833d1dc2b20f7",
+            "popups": []
+        },
+        {
+            "src": "panel07.jpg",
+            "panel": 6,
+            "_id": "53f6ccf8518833d1dc2b20f5",
+            "popups": [
+                {
+                    "src": "panel07L01.png",
+                    "x": 102,
+                    "y": 16,
+                    "panel": 6,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20f6"
+                }
+            ]
+        },
+        {
+            "src": "panel08.jpg",
+            "panel": 7,
+            "_id": "53f6ccf8518833d1dc2b20f3",
+            "popups": [
+                {
+                    "src": "panel08L01.png",
+                    "x": 277,
+                    "y": 286,
+                    "panel": 7,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20f4"
+                }
+            ]
+        },
+        {
+            "src": "panel09.jpg",
+            "panel": 8,
+            "_id": "53f6ccf8518833d1dc2b20f2",
+            "popups": []
+        },
+        {
+            "src": "panel10.jpg",
+            "panel": 9,
+            "_id": "53f6ccf8518833d1dc2b20f1",
+            "popups": []
+        },
+        {
+            "src": "panel11.jpg",
+            "panel": 10,
+            "_id": "53f6ccf8518833d1dc2b20f0",
+            "popups": []
+        },
+        {
+            "src": "panel12.jpg",
+            "panel": 11,
+            "_id": "53f6ccf8518833d1dc2b20ef",
+            "popups": []
+        },
+        {
+            "src": "panel13.jpg",
+            "panel": 12,
+            "_id": "53f6ccf8518833d1dc2b20ee",
+            "popups": []
+        },
+        {
+            "src": "panel14.jpg",
+            "panel": 13,
+            "_id": "53f6ccf8518833d1dc2b20ed",
+            "popups": []
+        },
+        {
+            "src": "panel15.jpg",
+            "panel": 14,
+            "_id": "53f6ccf8518833d1dc2b20eb",
+            "popups": [
+                {
+                    "src": "panel15L01.png",
+                    "x": 8,
+                    "y": 261,
+                    "panel": 14,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20ec"
+                }
+            ]
+        },
+        {
+            "src": "panel16.png",
+            "panel": 15,
+            "_id": "53f6ccf8518833d1dc2b20e9",
+            "popups": [
+                {
+                    "src": "panel16P1.jpg",
+                    "x": 412,
+                    "y": 100,
+                    "transition": "fadeIn",
+                    "panel": 15,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20ea"
+                }
+            ]
+        },
+        {
+            "src": "panel17.jpg",
+            "panel": 16,
+            "_id": "53f6ccf8518833d1dc2b20e5",
+            "popups": [
+                {
+                    "src": "panel17L01.png",
+                    "x": 292,
+                    "y": 180,
+                    "panel": 16,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20e8"
+                },
+                {
+                    "src": "panel17L02.png",
+                    "x": 172,
+                    "y": 217,
+                    "panel": 16,
+                    "popup": 1,
+                    "_id": "53f6ccf8518833d1dc2b20e7"
+                },
+                {
+                    "src": "panel17L03.png",
+                    "x": 570,
+                    "y": 285,
+                    "panel": 16,
+                    "popup": 2,
+                    "_id": "53f6ccf8518833d1dc2b20e6"
+                }
+            ]
+        },
+        {
+            "src": "panel18.png",
+            "panel": 17,
+            "_id": "53f6ccf8518833d1dc2b20e3",
+            "popups": [
+                {
+                    "src": "panel18p01.jpg",
+                    "x": 414,
+                    "y": 70,
+                    "transition": "fadeIn",
+                    "panel": 17,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20e4"
+                }
+            ]
+        },
+        {
+            "src": "panel19.jpg",
+            "panel": 18,
+            "_id": "53f6ccf8518833d1dc2b20e2",
+            "popups": []
+        },
+        {
+            "src": "panel20.jpg",
+            "panel": 19,
+            "_id": "53f6ccf8518833d1dc2b20e0",
+            "popups": [
+                {
+                    "src": "panel20p01.jpg",
+                    "x": 406,
+                    "y": 48,
+                    "transition": "fadeIn",
+                    "panel": 19,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20e1"
+                }
+            ]
+        },
+        {
+            "src": "panel21.jpg",
+            "panel": 20,
+            "_id": "53f6ccf8518833d1dc2b20dd",
+            "popups": [
+                {
+                    "src": "panel21p01.png",
+                    "x": 307,
+                    "y": 25,
+                    "panel": 20,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20df"
+                },
+                {
+                    "src": "panel21p02.png",
+                    "x": 368,
+                    "y": 233,
+                    "panel": 20,
+                    "popup": 1,
+                    "_id": "53f6ccf8518833d1dc2b20de"
+                }
+            ]
+        },
+        {
+            "src": "panel22.jpg",
+            "transition": "crossfade",
+            "panel": 21,
+            "_id": "53f6ccf8518833d1dc2b20dc",
+            "popups": []
+        },
+        {
+            "src": "panel23.jpg",
+            "transition": "crossfade",
+            "panel": 22,
+            "_id": "53f6ccf8518833d1dc2b20db",
+            "popups": []
+        },
+        {
+            "src": "panel24.jpg",
+            "transition": "crossfade",
+            "panel": 23,
+            "_id": "53f6ccf8518833d1dc2b20da",
+            "popups": []
+        },
+        {
+            "src": "panel25.jpg",
+            "transition": "crossfade",
+            "panel": 24,
+            "_id": "53f6ccf8518833d1dc2b20d7",
+            "popups": [
+                {
+                    "src": "panel25p01.png",
+                    "x": 306,
+                    "y": 56,
+                    "panel": 24,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20d9"
+                },
+                {
+                    "src": "panel25p02.png",
+                    "x": 527,
+                    "y": 303,
+                    "panel": 24,
+                    "popup": 1,
+                    "_id": "53f6ccf8518833d1dc2b20d8"
+                }
+            ]
+        },
+        {
+            "src": "panel26.jpg",
+            "transition": "crossfade",
+            "panel": 25,
+            "_id": "53f6ccf8518833d1dc2b20d5",
+            "popups": [
+                {
+                    "src": "panel26p01.png",
+                    "x": 640,
+                    "y": 293,
+                    "panel": 25,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20d6"
+                }
+            ]
+        },
+        {
+            "src": "panel27.jpg",
+            "panel": 26,
+            "_id": "53f6ccf8518833d1dc2b20d4",
+            "popups": []
+        },
+        {
+            "src": "panel28.jpg",
+            "panel": 27,
+            "_id": "53f6ccf8518833d1dc2b20d3",
+            "popups": []
+        },
+        {
+            "src": "panel29.jpg",
+            "panel": 28,
+            "_id": "53f6ccf8518833d1dc2b20d0",
+            "popups": [
+                {
+                    "src": "panel29p01.png",
+                    "transition": "fadeIn",
+                    "x": 235,
+                    "y": 191,
+                    "panel": 28,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20d2"
+                },
+                {
+                    "src": "panel29p02.png",
+                    "transition": "fadeIn",
+                    "x": 599,
+                    "y": 221,
+                    "panel": 28,
+                    "popup": 1,
+                    "_id": "53f6ccf8518833d1dc2b20d1"
+                }
+            ]
+        },
+        {
+            "src": "panel30.jpg",
+            "panel": 29,
+            "_id": "53f6ccf8518833d1dc2b20ce",
+            "popups": [
+                {
+                    "src": "panel30p01.png",
+                    "x": 137,
+                    "y": 74,
+                    "panel": 29,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20cf"
+                }
+            ]
+        },
+        {
+            "src": "panel31.jpg",
+            "transition": "crossfade",
+            "panel": 30,
+            "_id": "53f6ccf8518833d1dc2b20cd",
+            "popups": []
+        },
+        {
+            "src": "panel32.jpg",
+            "transition": "bounceback",
+            "panel": 31,
+            "_id": "53f6ccf8518833d1dc2b20cb",
+            "popups": [
+                {
+                    "src": "panel32p01.png",
+                    "transition": "fadeIn",
+                    "x": 44,
+                    "y": 0,
+                    "panel": 31,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20cc"
+                }
+            ]
+        },
+        {
+            "src": "panel33.jpg",
+            "panel": 32,
+            "_id": "53f6ccf8518833d1dc2b20ca",
+            "popups": []
+        },
+        {
+            "src": "panel34.jpg",
+            "panel": 33,
+            "_id": "53f6ccf8518833d1dc2b20c8",
+            "popups": [
+                {
+                    "src": "panel34p01.png",
+                    "x": 229,
+                    "y": 226,
+                    "panel": 33,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20c9"
+                }
+            ]
+        },
+        {
+            "src": "panel35.jpg",
+            "panel": 34,
+            "_id": "53f6ccf8518833d1dc2b20c6",
+            "popups": [
+                {
+                    "src": "panel35p01.png",
+                    "x": 470,
+                    "y": 166,
+                    "panel": 34,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20c7"
+                }
+            ]
+        },
+        {
+            "src": "panel36.jpg",
+            "transition": "bounceback",
+            "panel": 35,
+            "_id": "53f6ccf8518833d1dc2b20c5",
+            "popups": []
+        },
+        {
+            "src": "panel37.png",
+            "panel": 36,
+            "_id": "53f6ccf8518833d1dc2b20c3",
+            "popups": [
+                {
+                    "src": "panel37p01.jpg",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "panel": 36,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20c4"
+                }
+            ]
+        },
+        {
+            "src": "panel38.png",
+            "transition": "crossfade",
+            "panel": 37,
+            "_id": "53f6ccf8518833d1dc2b20c1",
+            "popups": [
+                {
+                    "src": "panel38p01.jpg",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "panel": 37,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20c2"
+                }
+            ]
+        },
+        {
+            "src": "panel39.png",
+            "transition": "crossfade",
+            "panel": 38,
+            "_id": "53f6ccf8518833d1dc2b20bf",
+            "popups": [
+                {
+                    "src": "panel39p01.jpg",
+                    "transition": "fadeIn",
+                    "x": 410,
+                    "y": 58,
+                    "panel": 38,
+                    "popup": 0,
+                    "_id": "53f6ccf8518833d1dc2b20c0"
+                }
+            ]
+        },
+        {
+            "src": "tbc.png",
+            "panel": 39,
+            "_id": "53f6ccf8518833d1dc2b20be",
+            "popups": []
+        }
+    ],
+    "move": {
+        "transition": "crossfade"
+    }
+}

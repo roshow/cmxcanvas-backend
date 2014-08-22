@@ -1,0 +1,54 @@
+[
+    {
+        "__collection": "views",
+        "id": "sov01og",
+        "height": "1167",
+        "width": "810",
+        "move": {
+            "transition": "slideAndFade"
+        },
+        "imgPath": "/images/sov01og/",
+        "panels": [
+            {
+                "panel": 0,
+                "src": "2012-05-15.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 1,
+                "src": "2012-05-16.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 2,
+                "src": "2012-05-23.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 3,
+                "src": "2012-05-30.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 4,
+                "src": "2012-06-06.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 5,
+                "src": "2012-06-13.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 6,
+                "src": "2012-06-20.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 7,
+                "src": "2012-06-27.jpg",
+                "type": "panel"
+            }
+        ]
+    }
+]
