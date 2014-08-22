@@ -17,24 +17,37 @@ function booksGetAll(req, res, next){
 function booksGetOne(req, res, next){
     db.find('metaData', { id: req.params.id }).then(
         function (book){
-            book = book[0];
+
+            if (!book[0]){
+                res.send(404, {
+                    code: 404,
+                    message: 'Not Found'
+                });
+                return;
+            }
+
             if (req.params.format){
-                var formats = book.formats;
+                var formats = book[0].formats;
                 for (var i = 0, l = formats.length; i < l; i++){
                     if (formats[i].format === req.params.format){
-                        book.view_id = formats[i].view_id;
+                        book[0].view_id = formats[i].view_id;
                         break;
                     }
                 }
             }
 
-            db.find('views', { id: book.view_id }).then(function (views){
-                book.view = views[0];
-                res.send({
-                    code: 200,
-                    data: book
-                });
-            }, function (error){ console.log(error); });
+            db.find('views', { id: book[0].view_id }).then(
+                function (views){
+
+                    console.log('still going in views');
+                    book[0].view = views[0];
+                    res.send({
+                        code: 200,
+                        data: book
+                    });
+                },
+                function (error){ console.log(error); }
+            );
 
         }, function (error){ console.log(error); });
     next();
