@@ -1,7 +1,8 @@
 var db = require('./db');
+/** This is so repetative, it's sad. It can be broken down into like 2 function, tops and call them with apply from the export object. **/
 
 function booksGetAll(req, res, next){
-    db.find('cmxMetaData', {}).then(
+    db.find('metaData', {}).then(
         function (comics){
             res.send({
                 code: 200,
@@ -14,9 +15,17 @@ function booksGetAll(req, res, next){
 }
 
 function booksGetOne(req, res, next){
-    console.log(req.params);
-    db.find('cmxMetaData', { id: req.params.id }).then(
+    db.find('metaData', { id: req.params.id }).then(
         function (book){
+
+            if (!book[0]){
+                res.send(404, {
+                    code: 404,
+                    message: 'Not Found'
+                });
+                return;
+            }
+
             if (req.params.format){
                 var formats = book[0].formats;
                 for (var i = 0, l = formats.length; i < l; i++){
@@ -24,27 +33,44 @@ function booksGetOne(req, res, next){
                         book[0].view_id = formats[i].view_id;
                         break;
                     }
-                    // if (formats[i].default === true){
-                    //     book[0].view_id = formats[i].view_id;
-                    // }
                 }
             }
 
-            db.find('cmxJSON', { id: book[0].view_id }).then(function (views){
-                book[0].view = views[0];
-                res.send({
-                    code: 200,
-                    data: book
-                });
-            }, function (error){ console.log(error); });
+            db.find('views', { id: book[0].view_id }).then(
+                function (views){
+
+                    console.log('still going in views');
+                    book[0].view = views[0];
+                    res.send({
+                        code: 200,
+                        data: book
+                    });
+                },
+                function (error){ console.log(error); }
+            );
 
         }, function (error){ console.log(error); });
     next();
 }
 
-function viewsGetOne(req, res, next){
-    db.find('cmxJSON', { id: req.params.id }).then(
+function viewsGetAll(req, res, next){
+    db.find('views', {}).then(
         function (views){
+            res.send({
+                code: 200,
+                data: views
+            });
+        }, function (error){
+            console.log(error);
+        });
+    next();
+}
+
+function viewsGetOne(req, res, next){
+    db.find('views', { id: req.params.id }).then(
+        function (views){
+            // console.log('views');
+            // console.log(views);
             res.send({
                 code: 200,
                 data: views
@@ -61,6 +87,7 @@ module.exports = {
         getOne: booksGetOne
     },
     views: {
-        getOne: viewsGetOne
+        getOne: viewsGetOne,
+        getAll: viewsGetAll
     }
 };

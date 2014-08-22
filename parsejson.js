@@ -2,40 +2,62 @@
 
 'use strict';
 
-var models = {},
-	schema = {};
+// var models = {},
+// 	schema = {};
 
-function cheapClone(a) {
-   return JSON.parse(JSON.stringify(a));
-}
+// function cheapClone(a) {
+//    return JSON.parse(JSON.stringify(a));
+// }
 
-function parseJson(bookjson){
+// function parseJson(bookjson){
 
-	/** cmxMetaData **/
-	if (bookjson.id){
-		models.cmxMetaData = cheapClone(bookjson);
-		if (models.cmxMetaData.view){
-			delete models.cmxMetaData.view;
-		}
-	}
+// 	/** MetaData **/
+// 	if (bookjson.id){
+// 		models.metaData = cheapClone(bookjson);
+// 		if (models.metaData.view){
+// 			delete models.metaData.view;
+// 		}
+// 	}
 
-	/** cmxJSON **/
-	if (bookjson.view){
-		models.cmxJSON = cheapClone(bookjson.view);
-		models.cmxJSON.id = bookjson.view_id;
+// 	/** Views **/
+// 	if (bookjson.view_id && bookjson.panels){
+// 		models.views = cheapClone(bookjson.view);
+// 		models.views.id = models.views.view_id;
 
-		models.cmxJSON.panels.forEach(function (panel, i){
-			panel.panel = i;
-			panel.popups = panel.popups || [];
+// 		models.views.panels.forEach(function (panel, i){
+// 			panel.panel = i;
+// 			panel.popups = panel.popups || [];
 
-			panel.popups.forEach(function (popup, ii){
-				popup.panel = i;
-				popup.popup = ii;
+// 			panel.popups.forEach(function (popup, ii){
+// 				popup.panel = i;
+// 				popup.popup = ii;
+// 			});
+// 		});
+// 	}
+// 	// console.log(models)
+// 	return models;
+// }
+
+// module.exports = parseJson;
+
+module.exports = function(model){
+	switch (model.__collection){
+		case 'views':
+			console.log(model.__collection);
+			model.panels.forEach(function (panel, i){
+				panel.panel = i;
+				panel.popups = panel.popups || [];
+
+				panel.popups.forEach(function (popup, ii){
+					popup.panel = i;
+					popup.popup = ii;
+				});
 			});
-		});
+			return model;
+		default:
+			console.log('default');
+			return model;
 	}
-
-	return models;
 }
 
-module.exports = parseJson;
+

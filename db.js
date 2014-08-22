@@ -15,11 +15,11 @@ conf = {
         pw: process.env.CBDB_PW,
         models: [
             {
-                collection: 'cmxMetaData',
+                collection: 'metaData',
                 schema: require('./metadataSchema'),
             },
             {
-                collection: 'cmxJSON',
+                collection: 'views',
                 schema: require('./viewSchema'),
             }
         ]
@@ -46,10 +46,8 @@ conf.db.models.forEach(function (model){
 
 
 db.find = function(model, query){
-    // ro.log('finding:', query, 'in:', model);
     var deferred = new promised.Deferred();
     dbModels[model].find(query || {}, function (err, docs){
-        // console.log(arguments);
         if (err) { deferred.reject(err); }
         else { deferred.resolve(docs); }
     });
@@ -90,6 +88,7 @@ db.override = function(modelName, model){
             }
             else {
                 dbModels[modelName].create(model, function (err, savedModel){
+                    // console.log(err);
                     def.resolve(savedModel);
                 });
             }

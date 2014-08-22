@@ -21,6 +21,8 @@ db.connect().then(function (){
     server.get('/books', handler.books.getAll);
     server.get('/books/', handler.books.getAll);
     server.get('/books/:id', handler.books.getOne);
+    server.get('/views', handler.views.getAll);
+    server.get('/views/', handler.views.getAll);
     server.get('/views/:id', handler.views.getOne);
 
 

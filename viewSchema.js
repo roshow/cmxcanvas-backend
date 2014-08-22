@@ -23,7 +23,7 @@ panelSchema = {
 viewSchema = {
 
     id: String,
-    cmxMetaData: String,
+    view_id: String,
     
     backgroundTextColor: String,
     backgroundColor: String,
