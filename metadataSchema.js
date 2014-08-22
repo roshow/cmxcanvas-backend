@@ -25,9 +25,7 @@ metaDataSchema = {
         id: String
     },
     creators: [ creatorSchema ],
-    standardFormat: formatsSchema,
     formats: [ formatsSchema ],
-    formatDefault: formatsSchema,
     view: {},
     view_id: String,
     published: Boolean

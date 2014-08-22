@@ -33,6 +33,7 @@ function booksGetOne(req, res, next){
             }
 
             db.find('views', { id: book[0].view_id }).then(function (views){
+                // console.log(view);
                 book[0].view = views[0];
                 res.send({
                     code: 200,

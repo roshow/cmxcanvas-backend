@@ -92,7 +92,7 @@ db.override = function(modelName, model){
             else {
                 // console.log('creating new');
                 dbModels[modelName].create(model, function (err, savedModel){
-                    console.log(err);
+                    // console.log(err);
                     def.resolve(savedModel);
                 });
             }
