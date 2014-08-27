@@ -1,0 +1,35 @@
+{
+    "__v": 0,
+    "id": "revorigin",
+    "issue": 0,
+    "title": "Origin",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/revorigin/revorigin_thumb.jpg",
+    "published": true,
+    "view_id": "revorigindig",
+    "_id": "53fbf42c8091280000d02c5b",
+    "formats": [
+        {
+            "format": "digital",
+            "view_id": "revorigindig",
+            "_id": "53fbf42c8091280000d02c5c"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Michael Powell",
+            "credit": "artist",
+            "url": "http://michaelpowellart.tumblr.com",
+            "_id": "53fbf42c8091280000d02c5e"
+        },
+        {
+            "name": "Rolando Garcia",
+            "credit": "writer",
+            "url": "http://roshow.net",
+            "_id": "53fbf42c8091280000d02c5d"
+        }
+    ],
+    "series": {
+        "name": "Revenger",
+        "id": "rev"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "__v": 0,
+    "id": "revorigindig",
+    "imgPath": "http://roshow.net/public/images/cmxcanvas/revorigin/",
+    "_id": "53fbf42c8091280000d02c5f",
+    "panels": [
+        {
+            "panel": 0,
+            "src": "panel_01.jpg",
+            "_id": "53fbf42c8091280000d02c6f",
+            "popups": []
+        },
+        {
+            "panel": 1,
+            "src": "panel_02.jpg",
+            "_id": "53fbf42c8091280000d02c6e",
+            "popups": []
+        },
+        {
+            "panel": 2,
+            "src": "panel_03.jpg",
+            "_id": "53fbf42c8091280000d02c6d",
+            "popups": []
+        },
+        {
+            "panel": 3,
+            "src": "panel_04.jpg",
+            "_id": "53fbf42c8091280000d02c6c",
+            "popups": []
+        },
+        {
+            "panel": 4,
+            "src": "panel_05.jpg",
+            "_id": "53fbf42c8091280000d02c6b",
+            "popups": []
+        },
+        {
+            "panel": 5,
+            "src": "panel_06.jpg",
+            "_id": "53fbf42c8091280000d02c6a",
+            "popups": []
+        },
+        {
+            "panel": 6,
+            "src": "panel_07.jpg",
+            "_id": "53fbf42c8091280000d02c67",
+            "popups": [
+                {
+                    "y": 2,
+                    "x": 278,
+                    "src": "panel_07b.jpg",
+                    "panel": 6,
+                    "popup": 0,
+                    "_id": "53fbf42c8091280000d02c69"
+                },
+                {
+                    "y": 2,
+                    "x": 546,
+                    "src": "panel_07c.jpg",
+                    "panel": 6,
+                    "popup": 1,
+                    "_id": "53fbf42c8091280000d02c68"
+                }
+            ]
+        },
+        {
+            "panel": 7,
+            "src": "panel_08.jpg",
+            "_id": "53fbf42c8091280000d02c66",
+            "popups": []
+        },
+        {
+            "panel": 8,
+            "src": "panel_09.jpg",
+            "_id": "53fbf42c8091280000d02c65",
+            "popups": []
+        },
+        {
+            "panel": 9,
+            "src": "panel_10.jpg",
+            "_id": "53fbf42c8091280000d02c64",
+            "popups": []
+        },
+        {
+            "panel": 10,
+            "src": "panel_11.jpg",
+            "_id": "53fbf42c8091280000d02c63",
+            "popups": []
+        },
+        {
+            "panel": 11,
+            "src": "panel_12.jpg",
+            "_id": "53fbf42c8091280000d02c62",
+            "popups": []
+        },
+        {
+            "panel": 12,
+            "src": "panel_13.jpg",
+            "_id": "53fbf42c8091280000d02c61",
+            "popups": []
+        },
+        {
+            "panel": 13,
+            "src": "panel_14.jpg",
+            "_id": "53fbf42c8091280000d02c60",
+            "popups": []
+        }
+    ],
+    "move": {
+        "transition": "slideAndFade"
+    }
+}

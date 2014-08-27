@@ -26,7 +26,7 @@
         }
     ],
     "issue": 4,
-    "published": 0,
+    "published": false,
     "series": {
         "name": "Revenger",
         "id": "rev"

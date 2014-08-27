@@ -1,0 +1,109 @@
+{
+    "__v": 0,
+    "id": "rev03og",
+    "height": 1167,
+    "width": 810,
+    "imgPath": "/images/rev03ogl/",
+    "_id": "53f6e542e6195881f98ed09e",
+    "panels": [
+        {
+            "panel": 0,
+            "src": "2013-07-30.jpg",
+            "_id": "53f6e542e6195881f98ed0ae",
+            "popups": []
+        },
+        {
+            "panel": 1,
+            "src": "2013-07-31.jpg",
+            "_id": "53f6e542e6195881f98ed0ad",
+            "popups": []
+        },
+        {
+            "panel": 2,
+            "src": "2013-08-01.jpg",
+            "_id": "53f6e542e6195881f98ed0ac",
+            "popups": []
+        },
+        {
+            "panel": 3,
+            "src": "2013-08-06.jpg",
+            "_id": "53f6e542e6195881f98ed0ab",
+            "popups": []
+        },
+        {
+            "panel": 4,
+            "src": "2013-08-07.jpg",
+            "_id": "53f6e542e6195881f98ed0aa",
+            "popups": []
+        },
+        {
+            "panel": 5,
+            "src": "2013-08-08.jpg",
+            "_id": "53f6e542e6195881f98ed0a9",
+            "popups": []
+        },
+        {
+            "panel": 6,
+            "src": "2013-08-13.jpg",
+            "_id": "53f6e542e6195881f98ed0a8",
+            "popups": []
+        },
+        {
+            "panel": 7,
+            "src": "2013-08-14.jpg",
+            "_id": "53f6e542e6195881f98ed0a7",
+            "popups": []
+        },
+        {
+            "panel": 8,
+            "src": "2013-08-15.jpg",
+            "_id": "53f6e542e6195881f98ed0a6",
+            "popups": []
+        },
+        {
+            "panel": 9,
+            "src": "2013-08-20.jpg",
+            "_id": "53f6e542e6195881f98ed0a5",
+            "popups": []
+        },
+        {
+            "panel": 10,
+            "src": "2013-08-21.jpg",
+            "_id": "53f6e542e6195881f98ed0a4",
+            "popups": []
+        },
+        {
+            "panel": 11,
+            "src": "2013-08-22.jpg",
+            "_id": "53f6e542e6195881f98ed0a3",
+            "popups": []
+        },
+        {
+            "panel": 12,
+            "src": "2013-08-27.jpg",
+            "_id": "53f6e542e6195881f98ed0a2",
+            "popups": []
+        },
+        {
+            "panel": 13,
+            "src": "2013-08-28.jpg",
+            "_id": "53f6e542e6195881f98ed0a1",
+            "popups": []
+        },
+        {
+            "panel": 14,
+            "src": "2013-08-29.jpg",
+            "_id": "53f6e542e6195881f98ed0a0",
+            "popups": []
+        },
+        {
+            "panel": 15,
+            "src": "2013-08-30.jpg",
+            "_id": "53f6e542e6195881f98ed09f",
+            "popups": []
+        }
+    ],
+    "move": {
+        "transition": "slideAndFade"
+    }
+}

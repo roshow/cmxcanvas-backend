@@ -1,0 +1,89 @@
+[
+    {
+        "__collection": "metaData",
+        "id": "rev02",
+        "issue": 2,
+        "title": "Family Tied",
+        "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
+        "series": {
+            "name": "Revenger",
+            "id": "rev"
+        },
+        "creators": [
+            {
+                "name": "Michael Powell",
+                "credit": "artist",
+                "url": "http://michaelpowellart.tumblr.com"
+            },
+            {
+                "name": "Rolando Garcia",
+                "credit": "writer",
+                "url": "http://roshow.net"
+            }
+        ],
+        "published": false,
+        "formats": [
+            {
+                "format": "classic",
+                "view_id": "rev02og"
+            }
+        ],
+        "view_id": "rev02og"
+    },
+    {
+        "__collection": "views",
+        "id": "rev02og",
+        "height": "1170",
+        "width": "810",
+        "move": {
+            "transition": "slideAndFade"
+        },
+        "imgPath": "/images/revcollection01/",
+        "panels": [
+            {
+                "src": "2011-10-19.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-10-26.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-11-02.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-11-09.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-11-16.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-11-23.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-11-30.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-12-07.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-12-14.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-12-21-1.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "2011-12-21-2.jpg",
+                "type": "panel"
+            }
+        ]
+    }
+]
