@@ -1,9 +1,9 @@
 {
   "name": "canvasbookapi",
-  "description": "api for my front-end project, cmxcanvas",
+  "description": "api for my canvas reader",
   "author": {
     "name": "roshow",
-    "url": "http://cmxcanvas.roshow.net"
+    "url": "http://roshow.net"
   },
   "version": "1.0",
   "private": true,
