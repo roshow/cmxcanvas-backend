@@ -1,11 +1,11 @@
 {
-  "name": "cmxcanvasapi",
+  "name": "canvasbookapi",
   "description": "api for my front-end project, cmxcanvas",
   "author": {
     "name": "roshow",
     "url": "http://cmxcanvas.roshow.net"
   },
-  "version": "0.0.1",
+  "version": "1.0",
   "private": true,
   "dependencies": {
     "express": "*",
