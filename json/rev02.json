@@ -7,7 +7,9 @@
         "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
         "series": {
             "name": "Revenger",
-            "id": "rev"
+            "id": "rev",
+            "next": "sov1",
+            "previous": "rev01"
         },
         "creators": [
             {
@@ -21,7 +23,7 @@
                 "url": "http://roshow.net"
             }
         ],
-        "published": false,
+        "published": true,
         "formats": [
             {
                 "format": "classic",

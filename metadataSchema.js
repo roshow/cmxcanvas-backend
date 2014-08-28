@@ -22,7 +22,9 @@ metaDataSchema = {
     thumb: String,
     series: {
         name: String,
-        id: String
+        id: String,
+        next: String,
+        previous: String
     },
     creators: [ creatorSchema ],
     formats: [ formatsSchema ],
