@@ -6,7 +6,9 @@
     "thumb": "http://roshow.net/public/images/cmxcanvas/sov01/sov01_thumb.jpg",
     "series": {
         "name": "Sovereign",
-        "id": "sov"
+        "id": "sov",
+        "next": "rev03",
+        "previous": "rev02"
     },
     "creators": [
         {

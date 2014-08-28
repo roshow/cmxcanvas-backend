@@ -1,16 +1,15 @@
 [
     {
         "__collection": "metaData",
-        
-        "id": "rev02",
-        "issue": 2,
-        "title": "Family Tied",
+        "id": "rev01",
+        "issue": 1,
+        "title": "Walk of Shame",
         "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
         "series": {
             "name": "Revenger",
             "id": "rev",
-            "next": "sov1",
-            "previous": "rev01"
+            "next": "rev02",
+            "previous": "rev03"
         },
         "creators": [
             {
@@ -28,14 +27,14 @@
         "formats": [
             {
                 "format": "classic",
-                "view_id": "rev02og"
+                "view_id": "rev01og"
             }
         ],
-        "view_id": "rev02og"
+        "view_id": "rev01og"
     },
     {
         "__collection": "views",
-        "id": "rev02og",
+        "id": "rev01og",
         "height": "1170",
         "width": "810",
         "move": {
@@ -44,47 +43,43 @@
         "imgPath": "/images/revcollection01/",
         "panels": [
             {
-                "src": "2011-10-19.jpg",
+                "src": "2011-05-25.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-10-26.jpg",
+                "src": "2011-06-01.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-11-02.jpg",
+                "src": "2011-06-08.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-11-09.jpg",
+                "src": "2011-06-15.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-11-16.jpg",
+                "src": "2011-06-22.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-11-23.jpg",
+                "src": "2011-06-29.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-11-30.jpg",
+                "src": "2011-07-06.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-12-07.jpg",
+                "src": "2011-07-13.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-12-14.jpg",
+                "src": "2011-07-20.jpg",
                 "type": "panel"
             },
             {
-                "src": "2011-12-21-1.jpg",
-                "type": "panel"
-            },
-            {
-                "src": "2011-12-21-2.jpg",
+                "src": "2011-07-27.jpg",
                 "type": "panel"
             }
         ]
