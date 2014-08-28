@@ -2,7 +2,7 @@
     {
         "__collection": "views",
         "id": "rev03og",
-        "height": "1167",
+        "height": "1160",
         "width": "810",
         "move": {
             "transition": "slideAndFade"
@@ -11,27 +11,27 @@
         "panels": [
             {
                 "panel": 0,
-                "src": "2011-10-26.jpg",
+                "src": "2013-07-30.jpg",
                 "type": "panel"
             },
             {
                 "panel": 1,
-                "src": "2011-11-02.jpg",
+                "src": "2013-07-31.jpg",
                 "type": "panel"
             },
             {
                 "panel": 2,
-                "src": "2011-11-09.jpg",
+                "src": "2013-08-01.jpg",
                 "type": "panel"
             },
             {
                 "panel": 3,
-                "src": "2011-11-16.jpg",
+                "src": "2013-08-06.jpg",
                 "type": "panel"
             },
             {
                 "panel": 4,
-                "src": "2011-11-23.jpg",
+                "src": "2013-08-07.jpg",
                 "type": "panel"
             },
             {
