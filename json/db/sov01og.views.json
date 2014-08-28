@@ -1,0 +1,61 @@
+{
+    "__v": 0,
+    "id": "sov01og",
+    "height": 1167,
+    "width": 810,
+    "imgPath": "/images/sov01og/",
+    "_id": "53f6ce0505f262e3dd9aba5d",
+    "panels": [
+        {
+            "panel": 0,
+            "src": "2012-05-15.jpg",
+            "_id": "53f6ce0505f262e3dd9aba65",
+            "popups": []
+        },
+        {
+            "panel": 1,
+            "src": "2012-05-16.jpg",
+            "_id": "53f6ce0505f262e3dd9aba64",
+            "popups": []
+        },
+        {
+            "panel": 2,
+            "src": "2012-05-23.jpg",
+            "_id": "53f6ce0505f262e3dd9aba63",
+            "popups": []
+        },
+        {
+            "panel": 3,
+            "src": "2012-05-30.jpg",
+            "_id": "53f6ce0505f262e3dd9aba62",
+            "popups": []
+        },
+        {
+            "panel": 4,
+            "src": "2012-06-06.jpg",
+            "_id": "53f6ce0505f262e3dd9aba61",
+            "popups": []
+        },
+        {
+            "panel": 5,
+            "src": "2012-06-13.jpg",
+            "_id": "53f6ce0505f262e3dd9aba60",
+            "popups": []
+        },
+        {
+            "panel": 6,
+            "src": "2012-06-20.jpg",
+            "_id": "53f6ce0505f262e3dd9aba5f",
+            "popups": []
+        },
+        {
+            "panel": 7,
+            "src": "2012-06-27.jpg",
+            "_id": "53f6ce0505f262e3dd9aba5e",
+            "popups": []
+        }
+    ],
+    "move": {
+        "transition": "slideAndFade"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "__v": 0,
+    "id": "sov01",
+    "issue": 1,
+    "title": "Giant Future Robot",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/sov01/sov01_thumb.jpg",
+    "published": true,
+    "view_id": "sov01dig",
+    "_id": "53f6ce0505f262e3dd9abaab",
+    "formats": [
+        {
+            "format": "digital",
+            "view_id": "sov01dig",
+            "_id": "53f6ce0505f262e3dd9abaad"
+        },
+        {
+            "format": "classic",
+            "view_id": "sov01og",
+            "_id": "53f6ce0505f262e3dd9abaac"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Michael Powell",
+            "credit": "Artist",
+            "url": "http://michaelpowellart.tumblr.com",
+            "_id": "53f6ce0505f262e3dd9abaaf"
+        },
+        {
+            "name": "Rolando Garcia",
+            "credit": "Writer",
+            "url": "http://roshow.net",
+            "_id": "53f6ce0505f262e3dd9abaae"
+        }
+    ],
+    "series": {
+        "name": "Sovereign",
+        "id": "sov"
+    }
+}

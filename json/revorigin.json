@@ -1,0 +1,127 @@
+[
+    {
+        "__collection": "metaData",
+        "id": "revorigin",
+        "issue": 0,
+        "title": "Origin",
+        "thumb": "http://roshow.net/public/images/cmxcanvas/revorigin/revorigin_thumb.jpg",
+        "published": true,
+        "series": {
+            "name": "Revenger",
+            "id": "rev"
+        },
+        "creators": [
+            {
+                "name": "Michael Powell",
+                "credit": "artist",
+                "url": "http://michaelpowellart.tumblr.com"
+            },
+            {
+                "name": "Rolando Garcia",
+                "credit": "writer",
+                "url": "http://roshow.net"
+            }
+        ],
+        "formats": [
+            {
+                "format": "digital",
+                "view_id": "revorigindig"
+            }
+        ],
+        "view_id": "revorigindig"
+    },
+    {
+        "__collection": "views",
+        "id": "revorigindig",
+        "move": {
+            "transition": "slideAndFade"
+        },
+        "imgPath": "http://roshow.net/public/images/cmxcanvas/revorigin/",
+        "panels": [
+            {
+                "panel": 0,
+                "type": "panel",
+                "src": "panel_01.jpg"
+            },
+            {
+                "panel": 1,
+                "type": "panel",
+                "src": "panel_02.jpg"
+            },
+            {
+                "panel": 2,
+                "type": "panel",
+                "src": "panel_03.jpg"
+            },
+            {
+                "panel": 3,
+                "type": "panel",
+                "src": "panel_04.jpg"
+            },
+            {
+                "panel": 4,
+                "type": "panel",
+                "src": "panel_05.jpg"
+            },
+            {
+                "panel": 5,
+                "type": "panel",
+                "src": "panel_06.jpg"
+            },
+            {
+                "popups": [
+                    {
+                        "y": 2,
+                        "x": 278,
+                        "type": "popup",
+                        "src": "panel_07b.jpg"
+                    },
+                    {
+                        "y": 2,
+                        "x": 546,
+                        "type": "popup",
+                        "src": "panel_07c.jpg"
+                    }
+                ],
+                "panel": 6,
+                "type": "panel",
+                "src": "panel_07.jpg"
+            },
+            {
+                "panel": 7,
+                "type": "panel",
+                "src": "panel_08.jpg"
+            },
+            {
+                "panel": 8,
+                "type": "panel",
+                "src": "panel_09.jpg"
+            },
+            {
+                "panel": 9,
+                "type": "panel",
+                "src": "panel_10.jpg"
+            },
+            {
+                "panel": 10,
+                "type": "panel",
+                "src": "panel_11.jpg"
+            },
+            {
+                "panel": 11,
+                "type": "panel",
+                "src": "panel_12.jpg"
+            },
+            {
+                "panel": 12,
+                "type": "panel",
+                "src": "panel_13.jpg"
+            },
+            {
+                "panel": 13,
+                "type": "panel",
+                "src": "panel_14.jpg"
+            }
+        ]
+    }
+]

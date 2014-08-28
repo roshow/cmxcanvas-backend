@@ -1,0 +1,95 @@
+[
+    {
+        "__collection": "views",
+        "id": "rev03og",
+        "height": "1160",
+        "width": "810",
+        "move": {
+            "transition": "slideAndFade"
+        },
+        "imgPath": "/images/rev03ogl/",
+        "panels": [
+            {
+                "panel": 0,
+                "src": "2013-07-30.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 1,
+                "src": "2013-07-31.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 2,
+                "src": "2013-08-01.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 3,
+                "src": "2013-08-06.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 4,
+                "src": "2013-08-07.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 5,
+                "src": "2013-08-08.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 6,
+                "src": "2013-08-13.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 7,
+                "src": "2013-08-14.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 8,
+                "src": "2013-08-15.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 9,
+                "src": "2013-08-20.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 10,
+                "src": "2013-08-21.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 11,
+                "src": "2013-08-22.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 12,
+                "src": "2013-08-27.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 13,
+                "src": "2013-08-28.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 14,
+                "src": "2013-08-29.jpg",
+                "type": "panel"
+            },
+            {
+                "panel": 15,
+                "src": "2013-08-30.jpg",
+                "type": "panel"
+            }
+        ],
+        "published": 0
+    }
+]

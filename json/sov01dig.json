@@ -1,0 +1,339 @@
+[{
+    "__collection": "views",
+    "id": "sov01dig",
+    "imgPath": "/images/sov01/",
+    "panels": [
+        {
+            "panel": 0,
+            "popups": [
+                {
+                    "y": 10,
+                    "x": 335,
+                    "type": "popup",
+                    "src": "panel_01_letters_01.png"
+                },
+                {
+                    "y": 340,
+                    "x": 345,
+                    "type": "popup",
+                    "src": "panel_01_letters_02.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_01.jpg"
+        },
+        {
+            "panel": 1,
+            "popups": [
+                {
+                    "y": 95,
+                    "x": 235,
+                    "type": "popup",
+                    "src": "panel_02_letters_01.png"
+                },
+                {
+                    "y": 270,
+                    "x": 395,
+                    "type": "popup",
+                    "src": "panel_02_letters_02.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_02.jpg"
+        },
+        {
+            "panel": 2,
+            "popups": [
+                {
+                    "y": 45,
+                    "x": 455,
+                    "type": "popup",
+                    "src": "panel_03_letters_01.png"
+                },
+                {
+                    "y": 100,
+                    "x": 115,
+                    "type": "popup",
+                    "src": "panel_03_letters_02.png"
+                },
+                {
+                    "y": 20,
+                    "x": 10,
+                    "type": "popup",
+                    "src": "panel_03_title_01.png"
+                },
+                {
+                    "y": 344,
+                    "x": 393,
+                    "type": "popup",
+                    "src": "panel_03_title_02.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_03.jpg"
+        },
+        {
+            "panel": 3,
+            "popups": [
+                {
+                    "y": 284,
+                    "x": 268,
+                    "type": "popup",
+                    "src": "panel_04_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_04.jpg"
+        },
+        {
+            "popups": [],
+            "panel": 4,
+            "type": "panel",
+            "src": "panel_05.jpg"
+        },
+        {
+            "popups": [],
+            "panel": 5,
+            "type": "panel",
+            "src": "panel_06.jpg"
+        },
+        {
+            "popups": [],
+            "panel": 6,
+            "type": "panel",
+            "src": "panel_07.png"
+        },
+        {
+            "popups": [],
+            "panel": 7,
+            "type": "panel",
+            "src": "panel_08.png"
+        },
+        {
+            "panel": 8,
+            "popups": [
+                {
+                    "y": 116,
+                    "x": 40,
+                    "type": "popup",
+                    "src": "panel_10_composite.jpg"
+                },
+                {
+                    "y": 75,
+                    "x": 40,
+                    "type": "popup",
+                    "src": "panel_11_composite.jpg"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_09_composite.jpg"
+        },
+        {
+            "popups": [],
+            "panel": 9,
+            "type": "panel",
+            "src": "panel_12_sfx_01.png"
+        },
+        {
+            "popups": [],
+            "panel": 10,
+            "type": "panel",
+            "src": "panel_12.jpg"
+        },
+        {
+            "panel": 11,
+            "popups": [
+                {
+                    "transition": "fadeIn",
+                    "y": 0,
+                    "x": 308,
+                    "type": "popup",
+                    "src": "panel_14.png"
+                },
+                {
+                    "transition": "fadeIn",
+                    "y": 0,
+                    "x": 296,
+                    "type": "popup",
+                    "src": "panel_15.png"
+                }
+            ],
+            "transition": "crossfade",
+            "type": "panel",
+            "src": "panel_13.png"
+        },
+        {
+            "panel": 12,
+            "popups": [
+                {
+                    "y": 318,
+                    "x": 271,
+                    "type": "popup",
+                    "src": "panel_16_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_16.png"
+        },
+        {
+            "panel": 13,
+            "popups": [
+                {
+                    "transition": "fadeIn",
+                    "y": 48,
+                    "x": 214,
+                    "type": "popup",
+                    "src": "panel_18_inverse.png"
+                },
+                {
+                    "transition": "fadeIn",
+                    "y": 48,
+                    "x": 214,
+                    "type": "popup",
+                    "src": "panel_18.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_17.png"
+        },
+        {
+            "panel": 14,
+            "popups": [
+                {
+                    "y": 248,
+                    "x": 288,
+                    "type": "popup",
+                    "src": "panel_19_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_19.png"
+        },
+        {
+            "popups": [],
+            "panel": 15,
+            "type": "panel",
+            "src": "panel_20.png"
+        },
+        {
+            "popups": [],
+            "panel": 16,
+            "type": "panel",
+            "src": "panel_21.png"
+        },
+        {
+            "popups": [],
+            "panel": 17,
+            "type": "panel",
+            "src": "panel_22.png"
+        },
+        {
+            "popups": [],
+            "panel": 18,
+            "type": "panel",
+            "src": "panel_23.png"
+        },
+        {
+            "panel": 19,
+            "popups": [
+                {
+                    "y": 310,
+                    "x": 478,
+                    "type": "popup",
+                    "src": "panel_23_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_25.png"
+        },
+        {
+            "panel": 20,
+            "popups": [
+                {
+                    "y": 140,
+                    "x": 433,
+                    "type": "popup",
+                    "src": "panel_26_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_26.jpg"
+        },
+        {
+            "panel": 21,
+            "popups": [
+                {
+                    "y": 322,
+                    "x": 357,
+                    "type": "popup",
+                    "src": "panel_27_sfx_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_27.png"
+        },
+        {
+            "panel": 22,
+            "popups": [
+                {
+                    "y": 93,
+                    "x": 261,
+                    "type": "popup",
+                    "src": "panel_28_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_28.png"
+        },
+        {
+            "panel": 23,
+            "popups": [
+                {
+                    "y": 66,
+                    "x": 312,
+                    "type": "popup",
+                    "src": "panel_29_letters_01.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_29.png"
+        },
+        {
+            "popups": [],
+            "panel": 24,
+            "type": "panel",
+            "src": "panel_30.png"
+        },
+        {
+            "panel": 25,
+            "popups": [
+                {
+                    "y": 25,
+                    "x": 39,
+                    "type": "popup",
+                    "src": "panel_31_letters_01.png"
+                },
+                {
+                    "y": 66,
+                    "x": 376,
+                    "type": "popup",
+                    "src": "panel_31_letters_02.png"
+                },
+                {
+                    "y": 304,
+                    "x": 169,
+                    "type": "popup",
+                    "src": "panel_31_letters_03.png"
+                },
+                {
+                    "y": 402,
+                    "x": 561,
+                    "type": "popup",
+                    "src": "panel_31_theend.png"
+                }
+            ],
+            "type": "panel",
+            "src": "panel_31.png"
+        }
+    ]
+}]

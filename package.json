@@ -1,16 +1,17 @@
 {
-  "name": "cmxcanvasapi",
-  "description": "api for my front-end project, cmxcanvas",
+  "name": "canvasbookapi",
+  "description": "api for my canvas reader",
   "author": {
     "name": "roshow",
-    "url": "http://cmxcanvas.roshow.net"
+    "url": "http://roshow.net"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "express": "*",
-    "mongojs": "*",
+    "mongoose": "*",
     "restify": "*",
-    "nconf": "*"
+    "nconf": "*",
+    "promised-io": "*"
   }
 }

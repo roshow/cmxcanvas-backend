@@ -1,0 +1,42 @@
+{
+    "__v": 0,
+    "id": "rev03",
+    "issue": 3,
+    "title": "Clusterf'd!",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
+    "published": true,
+    "view_id": "rev03dig",
+    "_id": "53fe9dd26f41b9440ff6ffa2",
+    "formats": [
+        {
+            "format": "digital",
+            "view_id": "rev03dig",
+            "_id": "53fe9dd26f41b9440ff6ffa4"
+        },
+        {
+            "format": "classic",
+            "view_id": "rev03og",
+            "_id": "53fe9dd26f41b9440ff6ffa3"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Michael Powell",
+            "credit": "artist",
+            "url": "http://michaelpowellart.tumblr.com",
+            "_id": "53fe9dd26f41b9440ff6ffa6"
+        },
+        {
+            "name": "Rolando Garcia",
+            "credit": "writer",
+            "url": "http://roshow.net",
+            "_id": "53fe9dd26f41b9440ff6ffa5"
+        }
+    ],
+    "series": {
+        "name": "Revenger",
+        "id": "rev",
+        "next": "rev01",
+        "previous": "sov1"
+    }
+}
