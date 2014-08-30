@@ -6,17 +6,17 @@
     "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
     "published": true,
     "view_id": "rev03dig",
-    "_id": "53fe9dd26f41b9440ff6ffa2",
+    "_id": "54018b9a63d029aa65a326b0",
     "formats": [
         {
             "format": "digital",
             "view_id": "rev03dig",
-            "_id": "53fe9dd26f41b9440ff6ffa4"
+            "_id": "54018b9a63d029aa65a326b2"
         },
         {
             "format": "classic",
             "view_id": "rev03og",
-            "_id": "53fe9dd26f41b9440ff6ffa3"
+            "_id": "54018b9a63d029aa65a326b1"
         }
     ],
     "creators": [
@@ -24,19 +24,19 @@
             "name": "Michael Powell",
             "credit": "artist",
             "url": "http://michaelpowellart.tumblr.com",
-            "_id": "53fe9dd26f41b9440ff6ffa6"
+            "_id": "54018b9a63d029aa65a326b4"
         },
         {
             "name": "Rolando Garcia",
             "credit": "writer",
             "url": "http://roshow.net",
-            "_id": "53fe9dd26f41b9440ff6ffa5"
+            "_id": "54018b9a63d029aa65a326b3"
         }
     ],
     "series": {
         "name": "Revenger",
         "id": "rev",
         "next": "rev01",
-        "previous": "sov1"
+        "previous": "sov01"
     }
 }

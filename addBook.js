@@ -11,7 +11,8 @@ if (process.argv[2]){
 	var allthosepromises = [];
 	db.connect().then(function (){
 		for (var i = 2, l = process.argv.length; i < l; i++){
-			var models = require(process.argv[i]);
+			console.log(process.argv[i]);
+			var models = require('./'+process.argv[i]);
 			for (var ii = 0, ll = models.length; ii < ll; ii++){
 				var model = parsejson(models[ii]);
 				allthosepromises.push(db.override(model.__collection, model).then(

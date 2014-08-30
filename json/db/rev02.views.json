@@ -3,15 +3,15 @@
     "id": "rev02",
     "issue": 2,
     "title": "Family Tied",
-    "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/revcollection01/rev02_thumb.jpg",
     "published": true,
     "view_id": "rev02og",
-    "_id": "53fe9dcde4601e370f03dfd1",
+    "_id": "540023ea656d02e054bc7eb2",
     "formats": [
         {
             "format": "classic",
             "view_id": "rev02og",
-            "_id": "53fe9dcde4601e370f03dfd2"
+            "_id": "540023ea656d02e054bc7eb3"
         }
     ],
     "creators": [
@@ -19,13 +19,13 @@
             "name": "Michael Powell",
             "credit": "artist",
             "url": "http://michaelpowellart.tumblr.com",
-            "_id": "53fe9dcde4601e370f03dfd4"
+            "_id": "540023ea656d02e054bc7eb5"
         },
         {
             "name": "Rolando Garcia",
             "credit": "writer",
             "url": "http://roshow.net",
-            "_id": "53fe9dcde4601e370f03dfd3"
+            "_id": "540023ea656d02e054bc7eb4"
         }
     ],
     "series": {
