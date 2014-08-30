@@ -1,0 +1,37 @@
+{
+    "__v": 0,
+    "id": "rev02",
+    "issue": 2,
+    "title": "Family Tied",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/revcollection01/rev02_thumb.jpg",
+    "published": true,
+    "view_id": "rev02og",
+    "_id": "54018b9a63d029aa65a326b5",
+    "formats": [
+        {
+            "format": "classic",
+            "view_id": "rev02og",
+            "_id": "54018b9a63d029aa65a326b6"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Michael Powell",
+            "credit": "artist",
+            "url": "http://michaelpowellart.tumblr.com",
+            "_id": "54018b9a63d029aa65a326b8"
+        },
+        {
+            "name": "Rolando Garcia",
+            "credit": "writer",
+            "url": "http://roshow.net",
+            "_id": "54018b9a63d029aa65a326b7"
+        }
+    ],
+    "series": {
+        "name": "Revenger",
+        "id": "rev",
+        "next": "sov01",
+        "previous": "rev01"
+    }
+}
