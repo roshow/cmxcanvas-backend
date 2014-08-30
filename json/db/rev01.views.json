@@ -3,15 +3,15 @@
     "id": "rev01",
     "issue": 1,
     "title": "Walk of Shame",
-    "thumb": "http://roshow.net/public/images/cmxcanvas/rev03/rev03_thumb.jpg",
+    "thumb": "http://roshow.net/public/images/cmxcanvas/revcollection01/rev01_thumb.png",
     "published": true,
     "view_id": "rev01og",
-    "_id": "53fe9d42f937bc190e3e1ca7",
+    "_id": "540022cb5e7197b254effab3",
     "formats": [
         {
             "format": "classic",
             "view_id": "rev01og",
-            "_id": "53fe9d42f937bc190e3e1ca8"
+            "_id": "540022cb5e7197b254effab4"
         }
     ],
     "creators": [
@@ -19,13 +19,13 @@
             "name": "Michael Powell",
             "credit": "artist",
             "url": "http://michaelpowellart.tumblr.com",
-            "_id": "53fe9d42f937bc190e3e1caa"
+            "_id": "540022cb5e7197b254effab6"
         },
         {
             "name": "Rolando Garcia",
             "credit": "writer",
             "url": "http://roshow.net",
-            "_id": "53fe9d42f937bc190e3e1ca9"
+            "_id": "540022cb5e7197b254effab5"
         }
     ],
     "series": {

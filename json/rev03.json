@@ -9,7 +9,7 @@
             "name": "Revenger",
             "id": "rev",
             "next": "rev01",
-            "previous": "sov1"
+            "previous": "sov01"
         },
         "creators": [
             {
