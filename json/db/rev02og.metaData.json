@@ -1,0 +1,79 @@
+{
+    "__v": 0,
+    "id": "rev02og",
+    "height": 1170,
+    "width": 810,
+    "imgPath": "/images/revcollection01/",
+    "_id": "54018b9a63d029aa65a326a4",
+    "panels": [
+        {
+            "src": "2011-10-19.jpg",
+            "panel": 0,
+            "_id": "54018b9a63d029aa65a326af",
+            "popups": []
+        },
+        {
+            "src": "2011-10-26.jpg",
+            "panel": 1,
+            "_id": "54018b9a63d029aa65a326ae",
+            "popups": []
+        },
+        {
+            "src": "2011-11-02.jpg",
+            "panel": 2,
+            "_id": "54018b9a63d029aa65a326ad",
+            "popups": []
+        },
+        {
+            "src": "2011-11-09.jpg",
+            "panel": 3,
+            "_id": "54018b9a63d029aa65a326ac",
+            "popups": []
+        },
+        {
+            "src": "2011-11-16.jpg",
+            "panel": 4,
+            "_id": "54018b9a63d029aa65a326ab",
+            "popups": []
+        },
+        {
+            "src": "2011-11-23.jpg",
+            "panel": 5,
+            "_id": "54018b9a63d029aa65a326aa",
+            "popups": []
+        },
+        {
+            "src": "2011-11-30.jpg",
+            "panel": 6,
+            "_id": "54018b9a63d029aa65a326a9",
+            "popups": []
+        },
+        {
+            "src": "2011-12-07.jpg",
+            "panel": 7,
+            "_id": "54018b9a63d029aa65a326a8",
+            "popups": []
+        },
+        {
+            "src": "2011-12-14.jpg",
+            "panel": 8,
+            "_id": "54018b9a63d029aa65a326a7",
+            "popups": []
+        },
+        {
+            "src": "2011-12-21-1.jpg",
+            "panel": 9,
+            "_id": "54018b9a63d029aa65a326a6",
+            "popups": []
+        },
+        {
+            "src": "2011-12-21-2.jpg",
+            "panel": 10,
+            "_id": "54018b9a63d029aa65a326a5",
+            "popups": []
+        }
+    ],
+    "move": {
+        "transition": "slideAndFade"
+    }
+}
