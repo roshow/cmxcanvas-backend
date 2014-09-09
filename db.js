@@ -54,6 +54,24 @@ db.find = function(model, query){
     return deferred;
 };
 
+db.findList = function(model, key, values, keepOrder){
+    var deferred = new promised.Deferred();
+    dbModels[model].where(key).in(values).exec(function (err, docs){
+        if (err) { deferred.reject(err); }
+        else {
+            if (keepOrder === true){
+                var reordered = []; 
+                for (var i = 0, l = docs.length; i < l; i++){
+                    reordered[values.indexOf(docs[i].id)] = docs[i];
+                }
+                docs = reordered;
+            }
+            deferred.resolve(docs);
+        }
+    });
+    return deferred;
+};
+
 db.put = function(modelName, model){
     var def = new promised.Deferred();
     if (model.id){
