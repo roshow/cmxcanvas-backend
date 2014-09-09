@@ -2,10 +2,18 @@ var db = require('./db');
 /** This is so repetative, it's sad. It can be broken down into like 2 function, tops and call them with apply from the export object. **/
 
 function booksGetAll(req, res, next){
-    db.find('metaData', {}).then(
+    var queryPromise;
+    if (req.params.ids){
+        queryPromise = db.findList('metaData', 'id', req.params.ids.split(','), true);
+    }
+    else {
+        queryPromise = db.find('metaData', {});
+    }
+    queryPromise.then(
         function (comics){
             res.send({
                 code: 200,
+                count: comics.length,
                 data: comics
             });
         }, function (error){
