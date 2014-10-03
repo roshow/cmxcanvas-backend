@@ -1,0 +1,112 @@
+[
+    {   
+        "__collection": "metaData",
+        "id": "cj03",
+        "issue": 3,
+        "title": "Where the Hell is the Missing Girl? Part 3",
+        "thumb": "",
+        "series": {
+            "name": "Captain Jones",
+            "id": "cj",
+            "next": "cj00",
+            "prev": "cj02"
+        },
+        "creators": [
+            {
+                "name": "Pete LePage",
+                "credit": "Writer",
+                "url": ""
+            },
+            {
+                "name": "Tim Levine",
+                "credit": "Artist",
+                "url": ""
+            }
+        ],
+        "published": false,
+        "formats": [
+            {
+                "format": "digital",
+                "view_id": "cj03dig"
+            }
+        ],
+        "view_id": "cj03dig"
+    },
+    {
+        "__collection": "views",
+        "id": "cj03dig",
+        "height": "450",
+        "width": "800",
+        "imgPath": "http://roshow.net/images/capjones/",
+        "panels": [
+            {
+                "src": "capjones0300.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0301.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0302.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0303.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0304.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0305.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0306.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0307.jpg",
+                "type": "panel",
+                "popups": [
+                    {
+                        "y": 51,
+                        "x": 400,
+                        "type": "popup",
+                        "src": "capjones0307p01.jpg"
+                    }
+                ]
+            },
+            {
+                "src": "capjones0308.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0309.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0310.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0311.jpg",
+                "type": "panel"
+            },
+            {
+                "src": "capjones0312.jpg",
+                "type": "panel",
+                "popups": [
+                    {
+                        "y": 53,
+                        "x": 481,
+                        "type": "popup",
+                        "src": "capjones0312p01.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

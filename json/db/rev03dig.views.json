@@ -2,52 +2,52 @@
     "__v": 0,
     "id": "rev03dig",
     "imgPath": "/images/rev03dig/",
-    "_id": "53f6e5281639e367f96a2a81",
+    "_id": "540ffc74cde74ce1c0b88567",
     "panels": [
         {
             "src": "panel01.png",
             "transition": "crossfade",
             "panel": 0,
-            "_id": "53f6e5281639e367f96a2ac0",
+            "_id": "540ffc74cde74ce1c0b885a6",
             "popups": []
         },
         {
             "src": "panel02.png",
             "transition": "crossfade",
             "panel": 1,
-            "_id": "53f6e5281639e367f96a2abf",
+            "_id": "540ffc74cde74ce1c0b885a5",
             "popups": []
         },
         {
             "src": "panel03.jpg",
             "transition": "crossfade",
             "panel": 2,
-            "_id": "53f6e5281639e367f96a2abe",
+            "_id": "540ffc74cde74ce1c0b885a4",
             "popups": []
         },
         {
             "src": "panel04.jpg",
             "transition": "crossfade",
             "panel": 3,
-            "_id": "53f6e5281639e367f96a2abd",
+            "_id": "540ffc74cde74ce1c0b885a3",
             "popups": []
         },
         {
             "src": "panel05.jpg",
             "panel": 4,
-            "_id": "53f6e5281639e367f96a2abc",
+            "_id": "540ffc74cde74ce1c0b885a2",
             "popups": []
         },
         {
             "src": "panel06.jpg",
             "panel": 5,
-            "_id": "53f6e5281639e367f96a2abb",
+            "_id": "540ffc74cde74ce1c0b885a1",
             "popups": []
         },
         {
             "src": "panel07.jpg",
             "panel": 6,
-            "_id": "53f6e5281639e367f96a2ab9",
+            "_id": "540ffc74cde74ce1c0b8859f",
             "popups": [
                 {
                     "src": "panel07L01.png",
@@ -55,14 +55,14 @@
                     "y": 16,
                     "panel": 6,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aba"
+                    "_id": "540ffc74cde74ce1c0b885a0"
                 }
             ]
         },
         {
             "src": "panel08.jpg",
             "panel": 7,
-            "_id": "53f6e5281639e367f96a2ab7",
+            "_id": "540ffc74cde74ce1c0b8859d",
             "popups": [
                 {
                     "src": "panel08L01.png",
@@ -70,50 +70,50 @@
                     "y": 286,
                     "panel": 7,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2ab8"
+                    "_id": "540ffc74cde74ce1c0b8859e"
                 }
             ]
         },
         {
             "src": "panel09.jpg",
             "panel": 8,
-            "_id": "53f6e5281639e367f96a2ab6",
+            "_id": "540ffc74cde74ce1c0b8859c",
             "popups": []
         },
         {
             "src": "panel10.jpg",
             "panel": 9,
-            "_id": "53f6e5281639e367f96a2ab5",
+            "_id": "540ffc74cde74ce1c0b8859b",
             "popups": []
         },
         {
             "src": "panel11.jpg",
             "panel": 10,
-            "_id": "53f6e5281639e367f96a2ab4",
+            "_id": "540ffc74cde74ce1c0b8859a",
             "popups": []
         },
         {
             "src": "panel12.jpg",
             "panel": 11,
-            "_id": "53f6e5281639e367f96a2ab3",
+            "_id": "540ffc74cde74ce1c0b88599",
             "popups": []
         },
         {
             "src": "panel13.jpg",
             "panel": 12,
-            "_id": "53f6e5281639e367f96a2ab2",
+            "_id": "540ffc74cde74ce1c0b88598",
             "popups": []
         },
         {
             "src": "panel14.jpg",
             "panel": 13,
-            "_id": "53f6e5281639e367f96a2ab1",
+            "_id": "540ffc74cde74ce1c0b88597",
             "popups": []
         },
         {
             "src": "panel15.jpg",
             "panel": 14,
-            "_id": "53f6e5281639e367f96a2aaf",
+            "_id": "540ffc74cde74ce1c0b88595",
             "popups": [
                 {
                     "src": "panel15L01.png",
@@ -121,14 +121,14 @@
                     "y": 261,
                     "panel": 14,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2ab0"
+                    "_id": "540ffc74cde74ce1c0b88596"
                 }
             ]
         },
         {
             "src": "panel16.png",
             "panel": 15,
-            "_id": "53f6e5281639e367f96a2aad",
+            "_id": "540ffc74cde74ce1c0b88593",
             "popups": [
                 {
                     "src": "panel16P1.jpg",
@@ -137,14 +137,14 @@
                     "transition": "fadeIn",
                     "panel": 15,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aae"
+                    "_id": "540ffc74cde74ce1c0b88594"
                 }
             ]
         },
         {
             "src": "panel17.jpg",
             "panel": 16,
-            "_id": "53f6e5281639e367f96a2aa9",
+            "_id": "540ffc74cde74ce1c0b8858f",
             "popups": [
                 {
                     "src": "panel17L01.png",
@@ -152,7 +152,7 @@
                     "y": 180,
                     "panel": 16,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aac"
+                    "_id": "540ffc74cde74ce1c0b88592"
                 },
                 {
                     "src": "panel17L02.png",
@@ -160,7 +160,7 @@
                     "y": 217,
                     "panel": 16,
                     "popup": 1,
-                    "_id": "53f6e5281639e367f96a2aab"
+                    "_id": "540ffc74cde74ce1c0b88591"
                 },
                 {
                     "src": "panel17L03.png",
@@ -168,14 +168,14 @@
                     "y": 285,
                     "panel": 16,
                     "popup": 2,
-                    "_id": "53f6e5281639e367f96a2aaa"
+                    "_id": "540ffc74cde74ce1c0b88590"
                 }
             ]
         },
         {
             "src": "panel18.png",
             "panel": 17,
-            "_id": "53f6e5281639e367f96a2aa7",
+            "_id": "540ffc74cde74ce1c0b8858d",
             "popups": [
                 {
                     "src": "panel18p01.jpg",
@@ -184,20 +184,20 @@
                     "transition": "fadeIn",
                     "panel": 17,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aa8"
+                    "_id": "540ffc74cde74ce1c0b8858e"
                 }
             ]
         },
         {
             "src": "panel19.jpg",
             "panel": 18,
-            "_id": "53f6e5281639e367f96a2aa6",
+            "_id": "540ffc74cde74ce1c0b8858c",
             "popups": []
         },
         {
             "src": "panel20.jpg",
             "panel": 19,
-            "_id": "53f6e5281639e367f96a2aa4",
+            "_id": "540ffc74cde74ce1c0b8858a",
             "popups": [
                 {
                     "src": "panel20p01.jpg",
@@ -206,14 +206,14 @@
                     "transition": "fadeIn",
                     "panel": 19,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aa5"
+                    "_id": "540ffc74cde74ce1c0b8858b"
                 }
             ]
         },
         {
             "src": "panel21.jpg",
             "panel": 20,
-            "_id": "53f6e5281639e367f96a2aa1",
+            "_id": "540ffc74cde74ce1c0b88587",
             "popups": [
                 {
                     "src": "panel21p01.png",
@@ -221,7 +221,7 @@
                     "y": 25,
                     "panel": 20,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2aa3"
+                    "_id": "540ffc74cde74ce1c0b88589"
                 },
                 {
                     "src": "panel21p02.png",
@@ -229,7 +229,7 @@
                     "y": 233,
                     "panel": 20,
                     "popup": 1,
-                    "_id": "53f6e5281639e367f96a2aa2"
+                    "_id": "540ffc74cde74ce1c0b88588"
                 }
             ]
         },
@@ -237,28 +237,28 @@
             "src": "panel22.jpg",
             "transition": "crossfade",
             "panel": 21,
-            "_id": "53f6e5281639e367f96a2aa0",
+            "_id": "540ffc74cde74ce1c0b88586",
             "popups": []
         },
         {
             "src": "panel23.jpg",
             "transition": "crossfade",
             "panel": 22,
-            "_id": "53f6e5281639e367f96a2a9f",
+            "_id": "540ffc74cde74ce1c0b88585",
             "popups": []
         },
         {
             "src": "panel24.jpg",
             "transition": "crossfade",
             "panel": 23,
-            "_id": "53f6e5281639e367f96a2a9e",
+            "_id": "540ffc74cde74ce1c0b88584",
             "popups": []
         },
         {
             "src": "panel25.jpg",
             "transition": "crossfade",
             "panel": 24,
-            "_id": "53f6e5281639e367f96a2a9b",
+            "_id": "540ffc74cde74ce1c0b88581",
             "popups": [
                 {
                     "src": "panel25p01.png",
@@ -266,7 +266,7 @@
                     "y": 56,
                     "panel": 24,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a9d"
+                    "_id": "540ffc74cde74ce1c0b88583"
                 },
                 {
                     "src": "panel25p02.png",
@@ -274,7 +274,7 @@
                     "y": 303,
                     "panel": 24,
                     "popup": 1,
-                    "_id": "53f6e5281639e367f96a2a9c"
+                    "_id": "540ffc74cde74ce1c0b88582"
                 }
             ]
         },
@@ -282,7 +282,7 @@
             "src": "panel26.jpg",
             "transition": "crossfade",
             "panel": 25,
-            "_id": "53f6e5281639e367f96a2a99",
+            "_id": "540ffc74cde74ce1c0b8857f",
             "popups": [
                 {
                     "src": "panel26p01.png",
@@ -290,26 +290,26 @@
                     "y": 293,
                     "panel": 25,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a9a"
+                    "_id": "540ffc74cde74ce1c0b88580"
                 }
             ]
         },
         {
             "src": "panel27.jpg",
             "panel": 26,
-            "_id": "53f6e5281639e367f96a2a98",
+            "_id": "540ffc74cde74ce1c0b8857e",
             "popups": []
         },
         {
             "src": "panel28.jpg",
             "panel": 27,
-            "_id": "53f6e5281639e367f96a2a97",
+            "_id": "540ffc74cde74ce1c0b8857d",
             "popups": []
         },
         {
             "src": "panel29.jpg",
             "panel": 28,
-            "_id": "53f6e5281639e367f96a2a94",
+            "_id": "540ffc74cde74ce1c0b8857a",
             "popups": [
                 {
                     "src": "panel29p01.png",
@@ -318,7 +318,7 @@
                     "y": 191,
                     "panel": 28,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a96"
+                    "_id": "540ffc74cde74ce1c0b8857c"
                 },
                 {
                     "src": "panel29p02.png",
@@ -327,14 +327,14 @@
                     "y": 221,
                     "panel": 28,
                     "popup": 1,
-                    "_id": "53f6e5281639e367f96a2a95"
+                    "_id": "540ffc74cde74ce1c0b8857b"
                 }
             ]
         },
         {
             "src": "panel30.jpg",
             "panel": 29,
-            "_id": "53f6e5281639e367f96a2a92",
+            "_id": "540ffc74cde74ce1c0b88578",
             "popups": [
                 {
                     "src": "panel30p01.png",
@@ -342,7 +342,7 @@
                     "y": 74,
                     "panel": 29,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a93"
+                    "_id": "540ffc74cde74ce1c0b88579"
                 }
             ]
         },
@@ -350,14 +350,14 @@
             "src": "panel31.jpg",
             "transition": "crossfade",
             "panel": 30,
-            "_id": "53f6e5281639e367f96a2a91",
+            "_id": "540ffc74cde74ce1c0b88577",
             "popups": []
         },
         {
             "src": "panel32.jpg",
             "transition": "bounceback",
             "panel": 31,
-            "_id": "53f6e5281639e367f96a2a8f",
+            "_id": "540ffc74cde74ce1c0b88575",
             "popups": [
                 {
                     "src": "panel32p01.png",
@@ -366,20 +366,20 @@
                     "y": 0,
                     "panel": 31,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a90"
+                    "_id": "540ffc74cde74ce1c0b88576"
                 }
             ]
         },
         {
             "src": "panel33.jpg",
             "panel": 32,
-            "_id": "53f6e5281639e367f96a2a8e",
+            "_id": "540ffc74cde74ce1c0b88574",
             "popups": []
         },
         {
             "src": "panel34.jpg",
             "panel": 33,
-            "_id": "53f6e5281639e367f96a2a8c",
+            "_id": "540ffc74cde74ce1c0b88572",
             "popups": [
                 {
                     "src": "panel34p01.png",
@@ -387,14 +387,14 @@
                     "y": 226,
                     "panel": 33,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a8d"
+                    "_id": "540ffc74cde74ce1c0b88573"
                 }
             ]
         },
         {
             "src": "panel35.jpg",
             "panel": 34,
-            "_id": "53f6e5281639e367f96a2a8a",
+            "_id": "540ffc74cde74ce1c0b88570",
             "popups": [
                 {
                     "src": "panel35p01.png",
@@ -402,7 +402,7 @@
                     "y": 166,
                     "panel": 34,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a8b"
+                    "_id": "540ffc74cde74ce1c0b88571"
                 }
             ]
         },
@@ -410,13 +410,13 @@
             "src": "panel36.jpg",
             "transition": "bounceback",
             "panel": 35,
-            "_id": "53f6e5281639e367f96a2a89",
+            "_id": "540ffc74cde74ce1c0b8856f",
             "popups": []
         },
         {
             "src": "panel37.png",
             "panel": 36,
-            "_id": "53f6e5281639e367f96a2a87",
+            "_id": "540ffc74cde74ce1c0b8856d",
             "popups": [
                 {
                     "src": "panel37p01.jpg",
@@ -425,7 +425,7 @@
                     "y": 58,
                     "panel": 36,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a88"
+                    "_id": "540ffc74cde74ce1c0b8856e"
                 }
             ]
         },
@@ -433,7 +433,7 @@
             "src": "panel38.png",
             "transition": "crossfade",
             "panel": 37,
-            "_id": "53f6e5281639e367f96a2a85",
+            "_id": "540ffc74cde74ce1c0b8856b",
             "popups": [
                 {
                     "src": "panel38p01.jpg",
@@ -442,7 +442,7 @@
                     "y": 58,
                     "panel": 37,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a86"
+                    "_id": "540ffc74cde74ce1c0b8856c"
                 }
             ]
         },
@@ -450,7 +450,7 @@
             "src": "panel39.png",
             "transition": "crossfade",
             "panel": 38,
-            "_id": "53f6e5281639e367f96a2a83",
+            "_id": "540ffc74cde74ce1c0b88569",
             "popups": [
                 {
                     "src": "panel39p01.jpg",
@@ -459,18 +459,18 @@
                     "y": 58,
                     "panel": 38,
                     "popup": 0,
-                    "_id": "53f6e5281639e367f96a2a84"
+                    "_id": "540ffc74cde74ce1c0b8856a"
                 }
             ]
         },
         {
             "src": "tbc.png",
             "panel": 39,
-            "_id": "53f6e5281639e367f96a2a82",
+            "_id": "540ffc74cde74ce1c0b88568",
             "popups": []
         }
     ],
     "move": {
-        "transition": "crossfade"
+        "transition": "slideAndFade"
     }
 }

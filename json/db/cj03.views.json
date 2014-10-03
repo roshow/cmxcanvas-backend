@@ -1,0 +1,36 @@
+{
+    "__v": 0,
+    "id": "cj03",
+    "issue": 3,
+    "title": "Where the Hell is the Missing Girl? Part 3",
+    "thumb": "",
+    "published": false,
+    "view_id": "cj03dig",
+    "_id": "5420ea4e911b920000e485c6",
+    "formats": [
+        {
+            "format": "digital",
+            "view_id": "cj03dig",
+            "_id": "5420ea4e911b920000e485c7"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Pete LePage",
+            "credit": "Writer",
+            "url": "",
+            "_id": "5420ea4e911b920000e485c9"
+        },
+        {
+            "name": "Tim Levine",
+            "credit": "Artist",
+            "url": "",
+            "_id": "5420ea4e911b920000e485c8"
+        }
+    ],
+    "series": {
+        "name": "Captain Jones",
+        "id": "cj",
+        "next": "cj00"
+    }
+}

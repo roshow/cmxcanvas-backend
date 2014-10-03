@@ -1,0 +1,49 @@
+{
+    "__v": 0,
+    "id": "cj00dig",
+    "height": 450,
+    "width": 800,
+    "imgPath": "http://roshow.net/images/capjones/",
+    "_id": "5417b41a0fc6d00ae25a137b",
+    "panels": [
+        {
+            "src": "capjones0001.png",
+            "panel": 0,
+            "_id": "5417b41a0fc6d00ae25a1381",
+            "popups": []
+        },
+        {
+            "src": "capjones0002.png",
+            "panel": 1,
+            "_id": "5417b41a0fc6d00ae25a137f",
+            "popups": [
+                {
+                    "y": 207,
+                    "x": 320,
+                    "src": "capjones0002p01.png",
+                    "panel": 1,
+                    "popup": 0,
+                    "_id": "5417b41a0fc6d00ae25a1380"
+                }
+            ]
+        },
+        {
+            "src": "capjones0003.png",
+            "panel": 2,
+            "_id": "5417b41a0fc6d00ae25a137e",
+            "popups": []
+        },
+        {
+            "src": "capjones0004.png",
+            "panel": 3,
+            "_id": "5417b41a0fc6d00ae25a137d",
+            "popups": []
+        },
+        {
+            "src": "capjones0005.png",
+            "panel": 4,
+            "_id": "5417b41a0fc6d00ae25a137c",
+            "popups": []
+        }
+    ]
+}

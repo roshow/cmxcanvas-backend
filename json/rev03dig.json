@@ -2,10 +2,10 @@
     { 
         "__collection": "views",
         "id": "rev03dig",
-        "move": {
-            "transition": "crossfade"
-        },
         "imgPath": "/images/rev03dig/",
+        "move": {
+            "transition": "slideAndFade"
+        },
         "panels": [
             {
                 "src": "panel01.png",

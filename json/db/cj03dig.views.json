@@ -1,0 +1,106 @@
+{
+    "__v": 0,
+    "id": "cj03dig",
+    "height": 450,
+    "width": 800,
+    "imgPath": "http://roshow.net/images/capjones/",
+    "_id": "5420ea4e911b920000e485b6",
+    "panels": [
+        {
+            "src": "capjones0300.jpg",
+            "panel": 0,
+            "_id": "5420ea4e911b920000e485c5",
+            "popups": []
+        },
+        {
+            "src": "capjones0301.jpg",
+            "panel": 1,
+            "_id": "5420ea4e911b920000e485c4",
+            "popups": []
+        },
+        {
+            "src": "capjones0302.jpg",
+            "panel": 2,
+            "_id": "5420ea4e911b920000e485c3",
+            "popups": []
+        },
+        {
+            "src": "capjones0303.jpg",
+            "panel": 3,
+            "_id": "5420ea4e911b920000e485c2",
+            "popups": []
+        },
+        {
+            "src": "capjones0304.jpg",
+            "panel": 4,
+            "_id": "5420ea4e911b920000e485c1",
+            "popups": []
+        },
+        {
+            "src": "capjones0305.jpg",
+            "panel": 5,
+            "_id": "5420ea4e911b920000e485c0",
+            "popups": []
+        },
+        {
+            "src": "capjones0306.jpg",
+            "panel": 6,
+            "_id": "5420ea4e911b920000e485bf",
+            "popups": []
+        },
+        {
+            "src": "capjones0307.jpg",
+            "panel": 7,
+            "_id": "5420ea4e911b920000e485bd",
+            "popups": [
+                {
+                    "y": 51,
+                    "x": 400,
+                    "src": "capjones0307p01.jpg",
+                    "panel": 7,
+                    "popup": 0,
+                    "_id": "5420ea4e911b920000e485be"
+                }
+            ]
+        },
+        {
+            "src": "capjones0308.jpg",
+            "panel": 8,
+            "_id": "5420ea4e911b920000e485bc",
+            "popups": []
+        },
+        {
+            "src": "capjones0309.jpg",
+            "panel": 9,
+            "_id": "5420ea4e911b920000e485bb",
+            "popups": []
+        },
+        {
+            "src": "capjones0310.jpg",
+            "panel": 10,
+            "_id": "5420ea4e911b920000e485ba",
+            "popups": []
+        },
+        {
+            "src": "capjones0311.jpg",
+            "panel": 11,
+            "_id": "5420ea4e911b920000e485b9",
+            "popups": []
+        },
+        {
+            "src": "capjones0312.jpg",
+            "panel": 12,
+            "_id": "5420ea4e911b920000e485b7",
+            "popups": [
+                {
+                    "y": 53,
+                    "x": 481,
+                    "src": "capjones0312p01.jpg",
+                    "panel": 12,
+                    "popup": 0,
+                    "_id": "5420ea4e911b920000e485b8"
+                }
+            ]
+        }
+    ]
+}

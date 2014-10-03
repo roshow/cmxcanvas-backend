@@ -1,0 +1,79 @@
+{
+    "__v": 0,
+    "id": "cj02dig",
+    "height": 450,
+    "width": 800,
+    "imgPath": "http://roshow.net/images/capjones/",
+    "_id": "5420e9bd9190710000366469",
+    "panels": [
+        {
+            "src": "capjones0201.jpg",
+            "panel": 0,
+            "_id": "5420e9bd9190710000366474",
+            "popups": []
+        },
+        {
+            "src": "capjones0202.jpg",
+            "panel": 1,
+            "_id": "5420e9bd9190710000366473",
+            "popups": []
+        },
+        {
+            "src": "capjones0203.jpg",
+            "panel": 2,
+            "_id": "5420e9bd9190710000366472",
+            "popups": []
+        },
+        {
+            "src": "capjones0204.jpg",
+            "panel": 3,
+            "_id": "5420e9bd9190710000366471",
+            "popups": []
+        },
+        {
+            "src": "capjones0205.jpg",
+            "panel": 4,
+            "_id": "5420e9bd9190710000366470",
+            "popups": []
+        },
+        {
+            "src": "capjones0206.jpg",
+            "panel": 5,
+            "_id": "5420e9bd919071000036646e",
+            "popups": [
+                {
+                    "y": 83,
+                    "x": 61,
+                    "src": "capjones0206p01.png",
+                    "panel": 5,
+                    "popup": 0,
+                    "_id": "5420e9bd919071000036646f"
+                }
+            ]
+        },
+        {
+            "src": "capjones0207.jpg",
+            "panel": 6,
+            "_id": "5420e9bd919071000036646d",
+            "popups": []
+        },
+        {
+            "src": "capjones0208.jpg",
+            "panel": 7,
+            "_id": "5420e9bd919071000036646c",
+            "popups": []
+        },
+        {
+            "src": "capjones0209.jpg",
+            "panel": 8,
+            "_id": "5420e9bd919071000036646b",
+            "popups": []
+        },
+        {
+            "src": "capjones0210.jpg",
+            "panel": 9,
+            "_id": "5420e9bd919071000036646a",
+            "popups": []
+        }
+    ]
+}
